@@ -1,0 +1,9 @@
+id,type,description,supplier_id,facility_id,start_date,end_date,severity,detected_date,is_simulated
+1,Demand Surge,[SIMULATED] Historical demand surge event for analytics baseline.,,,2026-02-20,2026-02-24,Medium,2026-02-23,True
+2,Demand Surge,[SIMULATED] Historical demand surge event for analytics baseline.,,,2026-05-18,2026-05-23,Low,2026-05-20,True
+3,Warehouse Disruption,[SIMULATED] Historical warehouse disruption event for analytics baseline.,,3.0,2025-11-30,2025-12-07,Medium,2025-12-03,True
+4,Partial Delivery,[SIMULATED] Historical partial delivery event for analytics baseline.,,,2026-05-20,2026-05-26,Medium,2026-05-21,True
+5,Transport Disruption,[SIMULATED] Historical transport disruption event for analytics baseline.,,,2026-07-07,2026-07-10,High,2026-07-08,True
+6,Supplier Delay,[SIMULATED] Historical supplier delay event for analytics baseline.,7.0,,2026-04-25,2026-05-01,Low,2026-04-28,True
+7,Partial Delivery,[SIMULATED] Historical partial delivery event for analytics baseline.,,,2026-10-02,2026-10-06,Medium,2026-10-04,True
+8,Supplier Delay,[SIMULATED] Sanjeevani MedSupply (Synthetic) reports a 7-day production/transport delay on Ceftriaxone 1g and Adrenaline lots.,2.0,,2026-11-11,2026-11-20,High,2026-11-12,True

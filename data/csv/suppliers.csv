@@ -1,0 +1,8 @@
+id,code,name,city,lat,lon,promised_lead_days,active
+1,S1,Arogya Pharma Distributors (Synthetic),Bhopal,23.26,77.41,5,True
+2,S2,Sanjeevani MedSupply (Synthetic),Pithampur,22.61,75.69,7,True
+3,S3,Bharat LifeCare Logistics (Synthetic),Nagpur,21.15,79.09,6,True
+4,S4,MedLine Formulations (Synthetic),Ahmedabad,23.02,72.57,8,True
+5,S5,Nirmal Healthcare Traders (Synthetic),Bhopal,23.24,77.4,4,True
+6,S6,Vedic Pharma Wholesale (Synthetic),Jaipur,26.91,75.79,9,True
+7,S7,CityCure Biologics (Synthetic),Hyderabad,17.38,78.48,6,True

@@ -1,0 +1,23 @@
+id,code,name,category,unit,unit_cost,criticality,cold_chain,shelf_life_days,base_daily_demand,season,primary_supplier_id,active
+1,PAR500,Paracetamol 500mg Tablet,Analgesic,tablet,0.6,1,False,1095,220.0,monsoon,1,True
+2,IBU400,Ibuprofen 400mg Tablet,Analgesic,tablet,0.9,1,False,1095,90.0,none,1,True
+3,AMX500,Amoxicillin 500mg Capsule,Antibiotic,capsule,3.2,2,False,730,120.0,monsoon,3,True
+4,AZI500,Azithromycin 500mg Tablet,Antibiotic,tablet,14.0,2,False,730,45.0,monsoon,3,True
+5,CTX1G,Ceftriaxone 1g Injection,Antibiotic,vial,38.0,3,False,720,40.0,none,2,True
+6,MET500,Metformin 500mg Tablet,Antidiabetic,tablet,0.8,2,False,1095,160.0,none,5,True
+7,INSR40,Insulin Regular 40IU/ml Vial,Antidiabetic,vial,135.0,3,True,540,12.0,none,7,True
+8,AML5,Amlodipine 5mg Tablet,Cardiovascular,tablet,0.7,2,False,1095,140.0,winter,5,True
+9,ATO10,Atorvastatin 10mg Tablet,Cardiovascular,tablet,2.0,1,False,1095,90.0,none,5,True
+10,ADR1,Adrenaline 1mg/ml Injection,Emergency,ampoule,22.0,3,False,720,8.0,none,2,True
+11,OXY10,Oxytocin 10IU Injection,Maternal Health,ampoule,18.0,3,True,540,15.0,none,7,True
+12,ORS,ORS Sachet,Rehydration,sachet,8.0,2,False,1095,90.0,monsoon,1,True
+13,NS500,Normal Saline 0.9% 500ml,IV Fluid,bottle,28.0,3,False,730,70.0,none,6,True
+14,RL500,Ringer Lactate 500ml,IV Fluid,bottle,32.0,3,False,730,45.0,none,6,True
+15,SAL100,Salbutamol Inhaler 100mcg,Respiratory,inhaler,95.0,2,False,730,14.0,winter,4,True
+16,OME20,Omeprazole 20mg Capsule,Gastro,capsule,1.4,1,False,1095,130.0,none,4,True
+17,ONDI4,Ondansetron 4mg Injection,Gastro,ampoule,12.0,2,False,730,20.0,none,2,True
+18,DIC75,Diclofenac 75mg Injection,Analgesic,ampoule,9.0,1,False,730,28.0,none,4,True
+19,TT05,Tetanus Toxoid Vaccine,Vaccine,vial,28.0,3,True,540,10.0,none,7,True
+20,ASV10,Anti-Snake Venom 10ml,Antidote,vial,850.0,3,True,540,1.5,monsoon,7,True
+21,HEP5K,Heparin 5000IU Injection,Anticoagulant,vial,45.0,3,False,730,6.0,none,3,True
+22,CET10,Cetirizine 10mg Tablet,Antihistamine,tablet,0.5,1,False,1095,75.0,summer,6,True

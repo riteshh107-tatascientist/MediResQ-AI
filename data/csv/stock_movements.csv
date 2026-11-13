@@ -1,0 +1,1143 @@
+date,medicine_id,facility_id,batch_id,type,quantity,reference,user,id
+2025-11-18,1,6,,Receipt,5093,PO-00001,system,1
+2025-12-24,1,3,,Receipt,10882,PO-00002,system,2
+2026-01-16,1,2,,Receipt,11152,PO-00003,system,3
+2026-02-16,1,7,,Receipt,14671,PO-00004,system,4
+2026-03-22,1,6,,Receipt,6709,PO-00005,system,5
+2026-04-20,1,6,,Receipt,7953,PO-00006,system,6
+2026-05-14,1,7,,Receipt,14465,PO-00007,system,7
+2026-06-18,1,4,,Receipt,14792,PO-00008,system,8
+2026-07-18,1,2,,Receipt,11150,PO-00009,system,9
+2026-08-10,1,3,,Receipt,8992,PO-00010,system,10
+2026-09-05,1,7,,Receipt,14877,PO-00011,system,11
+2026-10-08,1,5,,Receipt,12728,PO-00012,system,12
+2025-12-05,2,1,,Receipt,14602,PO-00013,system,13
+2026-01-03,2,6,,Receipt,3284,PO-00014,system,14
+2026-02-08,2,8,,Receipt,2401,PO-00015,system,15
+2026-03-11,2,6,,Receipt,3324,PO-00016,system,16
+2026-04-06,2,6,,Receipt,2580,PO-00017,system,17
+2026-05-05,2,4,,Receipt,6655,PO-00018,system,18
+2026-06-04,2,5,,Receipt,4786,PO-00019,system,19
+2026-06-27,2,2,,Receipt,3818,PO-00020,system,20
+2026-08-01,2,1,,Receipt,14710,PO-00021,system,21
+2026-08-26,2,5,,Receipt,4588,PO-00022,system,22
+2026-10-01,2,4,,Receipt,4119,PO-00023,system,23
+2026-10-25,2,3,,Receipt,2414,PO-00024,system,24
+2025-11-26,3,6,,Receipt,3199,PO-00025,system,25
+2025-12-21,3,8,,Receipt,3780,PO-00026,system,26
+2026-01-22,3,2,,Receipt,5568,PO-00027,system,27
+2026-02-17,3,7,,Receipt,7854,PO-00028,system,28
+2026-03-20,3,2,,Receipt,4445,PO-00029,system,29
+2026-04-26,3,1,,Receipt,23154,PO-00030,system,30
+2026-05-28,3,1,,Receipt,14507,PO-00031,system,31
+2026-07-03,3,2,,Receipt,8654,PO-00032,system,32
+2026-08-01,3,5,,Receipt,6762,PO-00033,system,33
+2026-08-30,3,8,,Receipt,5927,PO-00034,system,34
+2026-10-07,3,4,,Receipt,8725,PO-00035,system,35
+2025-11-25,4,4,,Receipt,2680,PO-00036,system,36
+2025-12-21,4,2,,Receipt,2133,PO-00037,system,37
+2026-01-26,4,2,,Receipt,2201,PO-00038,system,38
+2026-02-21,4,8,,Receipt,1631,PO-00039,system,39
+2026-03-17,4,6,,Receipt,1946,PO-00040,system,40
+2026-04-07,4,8,,Receipt,1857,PO-00041,system,41
+2026-05-04,4,1,,Receipt,9267,PO-00042,system,42
+2026-06-02,4,6,,Receipt,1325,PO-00043,system,43
+2026-07-06,4,6,,Receipt,1159,PO-00044,system,44
+2026-08-16,4,5,,Receipt,2899,PO-00045,system,45
+2026-09-10,4,4,,Receipt,4136,PO-00046,system,46
+2026-10-03,4,3,,Receipt,1944,PO-00047,system,47
+2026-10-30,4,8,,Receipt,2106,PO-00048,system,48
+2025-11-23,5,6,,Receipt,1026,PO-00049,system,49
+2025-12-26,5,6,,Receipt,1622,PO-00050,system,50
+2026-02-02,5,5,,Receipt,1393,PO-00051,system,51
+2026-03-09,5,3,,Receipt,1595,PO-00052,system,52
+2026-04-04,5,7,,Receipt,1625,PO-00053,system,53
+2026-04-26,5,1,,Receipt,5406,PO-00054,system,54
+2026-06-07,5,4,,Receipt,1851,PO-00055,system,55
+2026-07-04,5,1,,Receipt,6698,PO-00056,system,56
+2026-07-27,5,2,,Receipt,1725,PO-00057,system,57
+2026-09-03,5,3,,Receipt,1205,PO-00058,system,58
+2026-09-19,5,2,,Receipt,1848,PO-00059,system,59
+2026-10-16,5,6,,Receipt,1071,PO-00060,system,60
+2025-11-23,6,6,,Receipt,3551,PO-00061,system,61
+2025-12-23,6,8,,Receipt,7361,PO-00062,system,62
+2026-01-24,6,6,,Receipt,5050,PO-00063,system,63
+2026-03-01,6,5,,Receipt,5553,PO-00064,system,64
+2026-03-24,6,2,,Receipt,7423,PO-00065,system,65
+2026-04-18,6,8,,Receipt,4216,PO-00066,system,66
+2026-05-17,6,7,,Receipt,8011,PO-00067,system,67
+2026-06-22,6,8,,Receipt,6354,PO-00068,system,68
+2026-07-21,6,3,,Receipt,4969,PO-00069,system,69
+2026-08-25,6,7,,Receipt,6277,PO-00070,system,70
+2026-09-20,6,1,,Receipt,26006,PO-00071,system,71
+2026-10-23,6,5,,Receipt,5509,PO-00072,system,72
+2025-11-26,7,3,,Receipt,545,PO-00073,system,73
+2026-01-01,7,3,,Receipt,363,PO-00074,system,74
+2026-02-03,7,6,,Receipt,454,PO-00075,system,75
+2026-03-06,7,5,,Receipt,335,PO-00076,system,76
+2026-04-12,7,4,,Receipt,719,PO-00077,system,77
+2026-05-01,7,5,,Receipt,402,PO-00078,system,78
+2026-05-24,7,7,,Receipt,560,PO-00079,system,79
+2026-06-20,7,6,,Receipt,378,PO-00080,system,80
+2026-07-18,7,6,,Receipt,434,PO-00081,system,81
+2026-08-26,7,1,,Receipt,1747,PO-00082,system,82
+2026-09-27,7,8,,Receipt,425,PO-00083,system,83
+2026-11-01,7,1,,Receipt,1753,PO-00084,system,84
+2025-11-26,8,3,,Receipt,3698,PO-00085,system,85
+2025-12-27,8,5,,Receipt,6640,PO-00086,system,86
+2026-01-28,8,6,,Receipt,4353,PO-00087,system,87
+2026-02-21,8,2,,Receipt,6862,PO-00088,system,88
+2026-03-16,8,1,,Receipt,24708,PO-00089,system,89
+2026-04-18,8,8,,Receipt,3623,PO-00090,system,90
+2026-05-17,8,6,,Receipt,5485,PO-00091,system,91
+2026-06-18,8,6,,Receipt,5640,PO-00092,system,92
+2026-07-21,8,5,,Receipt,6174,PO-00093,system,93
+2026-08-26,8,3,,Receipt,3807,PO-00094,system,94
+2026-09-24,8,1,,Receipt,20026,PO-00095,system,95
+2026-10-25,8,8,,Receipt,4220,PO-00096,system,96
+2025-11-19,9,4,,Receipt,6713,PO-00097,system,97
+2025-12-15,9,1,,Receipt,11804,PO-00098,system,98
+2026-01-12,9,8,,Receipt,3267,PO-00099,system,99
+2026-02-12,9,3,,Receipt,2285,PO-00100,system,100
+2026-03-20,9,5,,Receipt,3340,PO-00101,system,101
+2026-04-25,9,6,,Receipt,2534,PO-00102,system,102
+2026-05-25,9,4,,Receipt,5628,PO-00103,system,103
+2026-06-25,9,2,,Receipt,3800,PO-00104,system,104
+2026-07-24,9,5,,Receipt,4501,PO-00105,system,105
+2026-08-20,9,5,,Receipt,3253,PO-00106,system,106
+2026-09-19,9,6,,Receipt,3422,PO-00107,system,107
+2026-10-24,9,5,,Receipt,3533,PO-00108,system,108
+2025-11-28,10,6,,Receipt,332,PO-00109,system,109
+2025-12-29,10,4,,Receipt,343,PO-00110,system,110
+2026-01-25,10,3,,Receipt,328,PO-00111,system,111
+2026-02-27,10,3,,Receipt,189,PO-00112,system,112
+2026-03-23,10,1,,Receipt,755,PO-00113,system,113
+2026-04-28,10,5,,Receipt,252,PO-00114,system,114
+2026-05-22,10,2,,Receipt,267,PO-00115,system,115
+2026-06-26,10,4,,Receipt,632,PO-00116,system,116
+2026-07-24,10,3,,Receipt,197,PO-00117,system,117
+2026-08-16,10,8,,Receipt,279,PO-00118,system,118
+2026-09-11,10,6,,Receipt,235,PO-00119,system,119
+2026-10-02,10,3,,Receipt,278,PO-00120,system,120
+2026-10-25,10,8,,Receipt,225,PO-00121,system,121
+2025-11-19,11,5,,Receipt,787,PO-00122,system,122
+2025-12-27,11,1,,Receipt,2554,PO-00123,system,123
+2026-01-21,11,4,,Receipt,878,PO-00124,system,124
+2026-02-16,11,7,,Receipt,515,PO-00125,system,125
+2026-03-13,11,3,,Receipt,575,PO-00126,system,126
+2026-04-06,11,1,,Receipt,1846,PO-00127,system,127
+2026-05-09,11,7,,Receipt,825,PO-00128,system,128
+2026-06-03,11,7,,Receipt,620,PO-00129,system,129
+2026-06-24,11,5,,Receipt,442,PO-00130,system,130
+2026-07-26,11,4,,Receipt,967,PO-00131,system,131
+2026-08-30,11,7,,Receipt,830,PO-00132,system,132
+2026-09-28,11,5,,Receipt,772,PO-00133,system,133
+2026-10-26,11,6,,Receipt,284,PO-00134,system,134
+2025-12-03,12,5,,Receipt,2906,PO-00135,system,135
+2026-01-08,12,4,,Receipt,4812,PO-00136,system,136
+2026-02-12,12,2,,Receipt,5117,PO-00137,system,137
+2026-03-08,12,5,,Receipt,3339,PO-00138,system,138
+2026-04-17,12,1,,Receipt,16467,PO-00139,system,139
+2026-05-20,12,8,,Receipt,3487,PO-00140,system,140
+2026-06-26,12,5,,Receipt,3471,PO-00141,system,141
+2026-07-28,12,7,,Receipt,3583,PO-00142,system,142
+2026-08-26,12,5,,Receipt,4978,PO-00143,system,143
+2026-10-04,12,4,,Receipt,6137,PO-00144,system,144
+2026-10-31,12,5,,Receipt,2906,PO-00145,system,145
+2025-12-09,13,8,,Receipt,1900,PO-00146,system,146
+2026-01-17,13,1,,Receipt,7596,PO-00147,system,147
+2026-02-13,13,3,,Receipt,2100,PO-00148,system,148
+2026-03-20,13,5,,Receipt,3695,PO-00149,system,149
+2026-04-27,13,4,,Receipt,3419,PO-00150,system,150
+2026-05-19,13,1,,Receipt,12259,PO-00151,system,151
+2026-06-20,13,8,,Receipt,2994,PO-00152,system,152
+2026-07-23,13,3,,Receipt,2428,PO-00153,system,153
+2026-08-16,13,4,,Receipt,3723,PO-00154,system,154
+2026-09-16,13,8,,Receipt,1713,PO-00155,system,155
+2026-10-22,13,2,,Receipt,3421,PO-00156,system,156
+2025-11-27,14,1,,Receipt,6801,PO-00157,system,157
+2026-01-02,14,3,,Receipt,1425,PO-00158,system,158
+2026-02-01,14,8,,Receipt,1777,PO-00159,system,159
+2026-03-11,14,7,,Receipt,2285,PO-00160,system,160
+2026-04-10,14,8,,Receipt,1097,PO-00161,system,161
+2026-05-06,14,2,,Receipt,2585,PO-00162,system,162
+2026-06-02,14,3,,Receipt,1380,PO-00163,system,163
+2026-07-07,14,3,,Receipt,1842,PO-00164,system,164
+2026-08-14,14,1,,Receipt,6242,PO-00165,system,165
+2026-09-23,14,7,,Receipt,2201,PO-00166,system,166
+2026-10-22,14,7,,Receipt,2287,PO-00167,system,167
+2025-11-23,15,5,,Receipt,434,PO-00168,system,168
+2025-12-17,15,1,,Receipt,1812,PO-00169,system,169
+2026-01-13,15,6,,Receipt,495,PO-00170,system,170
+2026-02-17,15,7,,Receipt,701,PO-00171,system,171
+2026-03-17,15,7,,Receipt,362,PO-00172,system,172
+2026-04-16,15,8,,Receipt,376,PO-00173,system,173
+2026-05-22,15,8,,Receipt,652,PO-00174,system,174
+2026-06-26,15,6,,Receipt,524,PO-00175,system,175
+2026-07-23,15,1,,Receipt,2141,PO-00176,system,176
+2026-08-25,15,5,,Receipt,424,PO-00177,system,177
+2026-09-18,15,1,,Receipt,1999,PO-00178,system,178
+2026-10-18,15,4,,Receipt,1048,PO-00179,system,179
+2025-11-30,16,4,,Receipt,8183,PO-00180,system,180
+2025-12-26,16,3,,Receipt,5701,PO-00181,system,181
+2026-01-21,16,5,,Receipt,6611,PO-00182,system,182
+2026-03-01,16,4,,Receipt,7947,PO-00183,system,183
+2026-03-29,16,2,,Receipt,4285,PO-00184,system,184
+2026-04-22,16,1,,Receipt,14954,PO-00185,system,185
+2026-05-28,16,7,,Receipt,4338,PO-00186,system,186
+2026-06-30,16,4,,Receipt,6820,PO-00187,system,187
+2026-08-08,16,1,,Receipt,13770,PO-00188,system,188
+2026-09-11,16,5,,Receipt,5751,PO-00189,system,189
+2026-10-06,16,7,,Receipt,5192,PO-00190,system,190
+2026-10-31,16,5,,Receipt,5850,PO-00191,system,191
+2025-11-30,17,8,,Receipt,718,PO-00192,system,192
+2025-12-25,17,6,,Receipt,756,PO-00193,system,193
+2026-01-29,17,7,,Receipt,958,PO-00194,system,194
+2026-03-07,17,2,,Receipt,1037,PO-00195,system,195
+2026-03-31,17,5,,Receipt,854,PO-00196,system,196
+2026-05-03,17,3,,Receipt,552,PO-00197,system,197
+2026-06-03,17,1,,Receipt,1881,PO-00198,system,198
+2026-07-07,17,3,,Receipt,515,PO-00199,system,199
+2026-08-09,17,8,,Receipt,471,PO-00200,system,200
+2026-09-04,17,6,,Receipt,451,PO-00201,system,201
+2026-09-28,17,7,,Receipt,887,PO-00202,system,202
+2026-10-25,17,3,,Receipt,730,PO-00203,system,203
+2025-12-08,18,7,,Receipt,1117,PO-00204,system,204
+2025-12-30,18,7,,Receipt,1550,PO-00205,system,205
+2026-01-26,18,6,,Receipt,863,PO-00206,system,206
+2026-02-20,18,1,,Receipt,3377,PO-00207,system,207
+2026-03-16,18,3,,Receipt,1207,PO-00208,system,208
+2026-04-23,18,1,,Receipt,3621,PO-00209,system,209
+2026-06-04,18,8,,Receipt,680,PO-00210,system,210
+2026-06-30,18,7,,Receipt,1286,PO-00211,system,211
+2026-08-01,18,6,,Receipt,833,PO-00212,system,212
+2026-08-25,18,2,,Receipt,1254,PO-00213,system,213
+2026-09-24,18,7,,Receipt,1174,PO-00214,system,214
+2026-10-25,18,8,,Receipt,655,PO-00215,system,215
+2025-11-19,19,8,,Receipt,370,PO-00216,system,216
+2025-12-26,19,6,,Receipt,351,PO-00217,system,217
+2026-01-20,19,8,,Receipt,258,PO-00218,system,218
+2026-02-19,19,1,,Receipt,1771,PO-00219,system,219
+2026-03-11,19,1,,Receipt,1545,PO-00220,system,220
+2026-04-19,19,6,,Receipt,246,PO-00221,system,221
+2026-05-12,19,7,,Receipt,570,PO-00222,system,222
+2026-06-09,19,6,,Receipt,320,PO-00223,system,223
+2026-07-16,19,4,,Receipt,478,PO-00224,system,224
+2026-08-16,19,4,,Receipt,455,PO-00225,system,225
+2026-09-23,19,6,,Receipt,255,PO-00226,system,226
+2026-10-22,19,1,,Receipt,1688,PO-00227,system,227
+2025-11-24,20,8,,Receipt,31,PO-00228,system,228
+2025-12-27,20,4,,Receipt,139,PO-00229,system,229
+2026-02-03,20,1,,Receipt,184,PO-00230,system,230
+2026-03-05,20,8,,Receipt,45,PO-00231,system,231
+2026-04-08,20,1,,Receipt,289,PO-00232,system,232
+2026-05-06,20,2,,Receipt,97,PO-00233,system,233
+2026-06-10,20,2,,Receipt,108,PO-00234,system,234
+2026-07-17,20,1,,Receipt,248,PO-00235,system,235
+2026-08-09,20,4,,Receipt,133,PO-00236,system,236
+2026-09-03,20,3,,Receipt,42,PO-00237,system,237
+2026-10-11,20,1,,Receipt,298,PO-00238,system,238
+2025-11-19,21,8,,Receipt,230,PO-00239,system,239
+2025-12-24,21,7,,Receipt,188,PO-00240,system,240
+2026-01-25,21,8,,Receipt,233,PO-00241,system,241
+2026-02-17,21,1,,Receipt,607,PO-00242,system,242
+2026-03-17,21,2,,Receipt,303,PO-00243,system,243
+2026-04-13,21,8,,Receipt,199,PO-00244,system,244
+2026-05-05,21,1,,Receipt,719,PO-00245,system,245
+2026-06-09,21,2,,Receipt,251,PO-00246,system,246
+2026-07-08,21,1,,Receipt,659,PO-00247,system,247
+2026-08-04,21,6,,Receipt,213,PO-00248,system,248
+2026-08-29,21,8,,Receipt,190,PO-00249,system,249
+2026-10-07,21,5,,Receipt,345,PO-00250,system,250
+2026-10-31,21,6,,Receipt,217,PO-00251,system,251
+2025-11-23,22,5,,Receipt,2448,PO-00252,system,252
+2025-12-16,22,5,,Receipt,1900,PO-00253,system,253
+2026-01-18,22,3,,Receipt,2031,PO-00254,system,254
+2026-02-25,22,1,,Receipt,6091,PO-00255,system,255
+2026-03-23,22,4,,Receipt,4233,PO-00256,system,256
+2026-04-30,22,7,,Receipt,2212,PO-00257,system,257
+2026-06-07,22,8,,Receipt,1911,PO-00258,system,258
+2026-07-07,22,4,,Receipt,4489,PO-00259,system,259
+2026-08-15,22,2,,Receipt,1841,PO-00260,system,260
+2026-09-14,22,2,,Receipt,2191,PO-00261,system,261
+2026-10-18,22,1,,Receipt,9523,PO-00262,system,262
+2026-09-20,1,4,,Issue,-1296,Weekly issue summary,system,263
+2026-09-27,1,4,,Issue,-3460,Weekly issue summary,system,264
+2026-10-04,1,4,,Issue,-3277,Weekly issue summary,system,265
+2026-10-11,1,4,,Issue,-3241,Weekly issue summary,system,266
+2026-10-18,1,4,,Issue,-3078,Weekly issue summary,system,267
+2026-10-25,1,4,,Issue,-3150,Weekly issue summary,system,268
+2026-11-01,1,4,,Issue,-2898,Weekly issue summary,system,269
+2026-11-08,1,4,,Issue,-2793,Weekly issue summary,system,270
+2026-09-20,1,5,,Issue,-809,Weekly issue summary,system,271
+2026-09-27,1,5,,Issue,-2128,Weekly issue summary,system,272
+2026-10-04,1,5,,Issue,-3496,Weekly issue summary,system,273
+2026-10-11,1,5,,Issue,-1974,Weekly issue summary,system,274
+2026-10-18,1,5,,Issue,-1953,Weekly issue summary,system,275
+2026-10-25,1,5,,Issue,-1898,Weekly issue summary,system,276
+2026-11-01,1,5,,Issue,-1873,Weekly issue summary,system,277
+2026-11-08,1,5,,Issue,-2427,Weekly issue summary,system,278
+2026-09-20,1,6,,Issue,-532,Weekly issue summary,system,279
+2026-09-27,1,6,,Issue,-1507,Weekly issue summary,system,280
+2026-10-04,1,6,,Issue,-1400,Weekly issue summary,system,281
+2026-10-11,1,6,,Issue,-1377,Weekly issue summary,system,282
+2026-10-18,1,6,,Issue,-1345,Weekly issue summary,system,283
+2026-10-25,1,6,,Issue,-1330,Weekly issue summary,system,284
+2026-11-01,1,6,,Issue,-1268,Weekly issue summary,system,285
+2026-11-08,1,6,,Issue,-1211,Weekly issue summary,system,286
+2026-09-20,1,7,,Issue,-878,Weekly issue summary,system,287
+2026-09-27,1,7,,Issue,-2321,Weekly issue summary,system,288
+2026-10-04,1,7,,Issue,-2271,Weekly issue summary,system,289
+2026-10-11,1,7,,Issue,-3421,Weekly issue summary,system,290
+2026-10-18,1,7,,Issue,-2189,Weekly issue summary,system,291
+2026-10-25,1,7,,Issue,-2195,Weekly issue summary,system,292
+2026-11-01,1,7,,Issue,-2009,Weekly issue summary,system,293
+2026-11-08,1,7,,Issue,-2029,Weekly issue summary,system,294
+2026-09-20,1,8,,Issue,-916,Weekly issue summary,system,295
+2026-09-27,1,8,,Issue,-1670,Weekly issue summary,system,296
+2026-10-04,1,8,,Issue,-1643,Weekly issue summary,system,297
+2026-10-11,1,8,,Issue,-1645,Weekly issue summary,system,298
+2026-10-18,1,8,,Issue,-1563,Weekly issue summary,system,299
+2026-10-25,1,8,,Issue,-1500,Weekly issue summary,system,300
+2026-11-01,1,8,,Issue,-1454,Weekly issue summary,system,301
+2026-11-08,1,8,,Issue,-1483,Weekly issue summary,system,302
+2026-09-20,2,4,,Issue,-405,Weekly issue summary,system,303
+2026-09-27,2,4,,Issue,-1107,Weekly issue summary,system,304
+2026-10-04,2,4,,Issue,-1041,Weekly issue summary,system,305
+2026-10-11,2,4,,Issue,-1085,Weekly issue summary,system,306
+2026-10-18,2,4,,Issue,-1076,Weekly issue summary,system,307
+2026-10-25,2,4,,Issue,-1124,Weekly issue summary,system,308
+2026-11-01,2,4,,Issue,-1061,Weekly issue summary,system,309
+2026-11-08,2,4,,Issue,-1084,Weekly issue summary,system,310
+2026-09-20,2,5,,Issue,-240,Weekly issue summary,system,311
+2026-09-27,2,5,,Issue,-674,Weekly issue summary,system,312
+2026-10-04,2,5,,Issue,-679,Weekly issue summary,system,313
+2026-10-11,2,5,,Issue,-663,Weekly issue summary,system,314
+2026-10-18,2,5,,Issue,-634,Weekly issue summary,system,315
+2026-10-25,2,5,,Issue,-650,Weekly issue summary,system,316
+2026-11-01,2,5,,Issue,-689,Weekly issue summary,system,317
+2026-11-08,2,5,,Issue,-1184,Weekly issue summary,system,318
+2026-09-20,2,6,,Issue,-180,Weekly issue summary,system,319
+2026-09-27,2,6,,Issue,-477,Weekly issue summary,system,320
+2026-10-04,2,6,,Issue,-482,Weekly issue summary,system,321
+2026-10-11,2,6,,Issue,-453,Weekly issue summary,system,322
+2026-10-18,2,6,,Issue,-472,Weekly issue summary,system,323
+2026-10-25,2,6,,Issue,-506,Weekly issue summary,system,324
+2026-11-01,2,6,,Issue,-492,Weekly issue summary,system,325
+2026-11-08,2,6,,Issue,-455,Weekly issue summary,system,326
+2026-09-20,2,7,,Issue,-268,Weekly issue summary,system,327
+2026-09-27,2,7,,Issue,-743,Weekly issue summary,system,328
+2026-10-04,2,7,,Issue,-741,Weekly issue summary,system,329
+2026-10-11,2,7,,Issue,-784,Weekly issue summary,system,330
+2026-10-18,2,7,,Issue,-719,Weekly issue summary,system,331
+2026-10-25,2,7,,Issue,-727,Weekly issue summary,system,332
+2026-11-01,2,7,,Issue,-771,Weekly issue summary,system,333
+2026-11-08,2,7,,Issue,-761,Weekly issue summary,system,334
+2026-09-20,2,8,,Issue,-201,Weekly issue summary,system,335
+2026-09-27,2,8,,Issue,-531,Weekly issue summary,system,336
+2026-10-04,2,8,,Issue,-548,Weekly issue summary,system,337
+2026-10-11,2,8,,Issue,-796,Weekly issue summary,system,338
+2026-10-18,2,8,,Issue,-552,Weekly issue summary,system,339
+2026-10-25,2,8,,Issue,-596,Weekly issue summary,system,340
+2026-11-01,2,8,,Issue,-535,Weekly issue summary,system,341
+2026-11-08,2,8,,Issue,-570,Weekly issue summary,system,342
+2026-09-20,3,4,,Issue,-668,Weekly issue summary,system,343
+2026-09-27,3,4,,Issue,-1818,Weekly issue summary,system,344
+2026-10-04,3,4,,Issue,-1803,Weekly issue summary,system,345
+2026-10-11,3,4,,Issue,-1715,Weekly issue summary,system,346
+2026-10-18,3,4,,Issue,-1738,Weekly issue summary,system,347
+2026-10-25,3,4,,Issue,-1653,Weekly issue summary,system,348
+2026-11-01,3,4,,Issue,-1624,Weekly issue summary,system,349
+2026-11-08,3,4,,Issue,-1635,Weekly issue summary,system,350
+2026-09-20,3,5,,Issue,-431,Weekly issue summary,system,351
+2026-09-27,3,5,,Issue,-1159,Weekly issue summary,system,352
+2026-10-04,3,5,,Issue,-1162,Weekly issue summary,system,353
+2026-10-11,3,5,,Issue,-1124,Weekly issue summary,system,354
+2026-10-18,3,5,,Issue,-1739,Weekly issue summary,system,355
+2026-10-25,3,5,,Issue,-1426,Weekly issue summary,system,356
+2026-11-01,3,5,,Issue,-965,Weekly issue summary,system,357
+2026-11-08,3,5,,Issue,-977,Weekly issue summary,system,358
+2026-09-20,3,6,,Issue,-297,Weekly issue summary,system,359
+2026-09-27,3,6,,Issue,-846,Weekly issue summary,system,360
+2026-10-04,3,6,,Issue,-817,Weekly issue summary,system,361
+2026-10-11,3,6,,Issue,-769,Weekly issue summary,system,362
+2026-10-18,3,6,,Issue,-724,Weekly issue summary,system,363
+2026-10-25,3,6,,Issue,-680,Weekly issue summary,system,364
+2026-11-01,3,6,,Issue,-704,Weekly issue summary,system,365
+2026-11-08,3,6,,Issue,-656,Weekly issue summary,system,366
+2026-09-20,3,7,,Issue,-490,Weekly issue summary,system,367
+2026-09-27,3,7,,Issue,-1288,Weekly issue summary,system,368
+2026-10-04,3,7,,Issue,-1224,Weekly issue summary,system,369
+2026-10-11,3,7,,Issue,-1254,Weekly issue summary,system,370
+2026-10-18,3,7,,Issue,-1188,Weekly issue summary,system,371
+2026-10-25,3,7,,Issue,-1850,Weekly issue summary,system,372
+2026-11-01,3,7,,Issue,-1094,Weekly issue summary,system,373
+2026-11-08,3,7,,Issue,-1024,Weekly issue summary,system,374
+2026-09-20,3,8,,Issue,-375,Weekly issue summary,system,375
+2026-09-27,3,8,,Issue,-925,Weekly issue summary,system,376
+2026-10-04,3,8,,Issue,-881,Weekly issue summary,system,377
+2026-10-11,3,8,,Issue,-876,Weekly issue summary,system,378
+2026-10-18,3,8,,Issue,-858,Weekly issue summary,system,379
+2026-10-25,3,8,,Issue,-799,Weekly issue summary,system,380
+2026-11-01,3,8,,Issue,-731,Weekly issue summary,system,381
+2026-11-08,3,8,,Issue,-1456,Weekly issue summary,system,382
+2026-09-20,4,4,,Issue,-290,Weekly issue summary,system,383
+2026-09-27,4,4,,Issue,-671,Weekly issue summary,system,384
+2026-10-04,4,4,,Issue,-654,Weekly issue summary,system,385
+2026-10-11,4,4,,Issue,-626,Weekly issue summary,system,386
+2026-10-18,4,4,,Issue,-1064,Weekly issue summary,system,387
+2026-10-25,4,4,,Issue,-939,Weekly issue summary,system,388
+2026-11-01,4,4,,Issue,-950,Weekly issue summary,system,389
+2026-11-08,4,4,,Issue,-680,Weekly issue summary,system,390
+2026-09-20,4,5,,Issue,-149,Weekly issue summary,system,391
+2026-09-27,4,5,,Issue,-430,Weekly issue summary,system,392
+2026-10-04,4,5,,Issue,-405,Weekly issue summary,system,393
+2026-10-11,4,5,,Issue,-461,Weekly issue summary,system,394
+2026-10-18,4,5,,Issue,-410,Weekly issue summary,system,395
+2026-10-25,4,5,,Issue,-620,Weekly issue summary,system,396
+2026-11-01,4,5,,Issue,-387,Weekly issue summary,system,397
+2026-11-08,4,5,,Issue,-354,Weekly issue summary,system,398
+2026-09-20,4,6,,Issue,-116,Weekly issue summary,system,399
+2026-09-27,4,6,,Issue,-290,Weekly issue summary,system,400
+2026-10-04,4,6,,Issue,-235,Weekly issue summary,system,401
+2026-10-11,4,6,,Issue,-279,Weekly issue summary,system,402
+2026-10-18,4,6,,Issue,-430,Weekly issue summary,system,403
+2026-10-25,4,6,,Issue,-219,Weekly issue summary,system,404
+2026-11-01,4,6,,Issue,-269,Weekly issue summary,system,405
+2026-11-08,4,6,,Issue,-261,Weekly issue summary,system,406
+2026-09-20,4,7,,Issue,-184,Weekly issue summary,system,407
+2026-09-27,4,7,,Issue,-483,Weekly issue summary,system,408
+2026-10-04,4,7,,Issue,-467,Weekly issue summary,system,409
+2026-10-11,4,7,,Issue,-465,Weekly issue summary,system,410
+2026-10-18,4,7,,Issue,-434,Weekly issue summary,system,411
+2026-10-25,4,7,,Issue,-440,Weekly issue summary,system,412
+2026-11-01,4,7,,Issue,-315,Weekly issue summary,system,413
+2026-11-08,4,7,,Issue,-433,Weekly issue summary,system,414
+2026-09-20,4,8,,Issue,-261,Weekly issue summary,system,415
+2026-09-27,4,8,,Issue,-338,Weekly issue summary,system,416
+2026-10-04,4,8,,Issue,-336,Weekly issue summary,system,417
+2026-10-11,4,8,,Issue,-315,Weekly issue summary,system,418
+2026-10-18,4,8,,Issue,-338,Weekly issue summary,system,419
+2026-10-25,4,8,,Issue,-308,Weekly issue summary,system,420
+2026-11-01,4,8,,Issue,-307,Weekly issue summary,system,421
+2026-11-08,4,8,,Issue,-293,Weekly issue summary,system,422
+2026-09-20,5,4,,Issue,-205,Weekly issue summary,system,423
+2026-09-27,5,4,,Issue,-436,Weekly issue summary,system,424
+2026-10-04,5,4,,Issue,-510,Weekly issue summary,system,425
+2026-10-11,5,4,,Issue,-426,Weekly issue summary,system,426
+2026-10-18,5,4,,Issue,-482,Weekly issue summary,system,427
+2026-10-25,5,4,,Issue,-489,Weekly issue summary,system,428
+2026-11-01,5,4,,Issue,-506,Weekly issue summary,system,429
+2026-11-08,5,4,,Issue,-485,Weekly issue summary,system,430
+2026-09-20,5,5,,Issue,-124,Weekly issue summary,system,431
+2026-09-27,5,5,,Issue,-299,Weekly issue summary,system,432
+2026-10-04,5,5,,Issue,-315,Weekly issue summary,system,433
+2026-10-11,5,5,,Issue,-328,Weekly issue summary,system,434
+2026-10-18,5,5,,Issue,-301,Weekly issue summary,system,435
+2026-10-25,5,5,,Issue,-312,Weekly issue summary,system,436
+2026-11-01,5,5,,Issue,-321,Weekly issue summary,system,437
+2026-11-08,5,5,,Issue,-284,Weekly issue summary,system,438
+2026-09-20,5,6,,Issue,-72,Weekly issue summary,system,439
+2026-09-27,5,6,,Issue,-221,Weekly issue summary,system,440
+2026-10-04,5,6,,Issue,-304,Weekly issue summary,system,441
+2026-10-11,5,6,,Issue,-333,Weekly issue summary,system,442
+2026-10-18,5,6,,Issue,-214,Weekly issue summary,system,443
+2026-10-25,5,6,,Issue,-189,Weekly issue summary,system,444
+2026-11-01,5,6,,Issue,-208,Weekly issue summary,system,445
+2026-11-08,5,6,,Issue,-213,Weekly issue summary,system,446
+2026-09-20,5,7,,Issue,-73,Weekly issue summary,system,447
+2026-09-27,5,7,,Issue,-342,Weekly issue summary,system,448
+2026-10-04,5,7,,Issue,-320,Weekly issue summary,system,449
+2026-10-11,5,7,,Issue,-344,Weekly issue summary,system,450
+2026-10-18,5,7,,Issue,-343,Weekly issue summary,system,451
+2026-10-25,5,7,,Issue,-320,Weekly issue summary,system,452
+2026-11-01,5,7,,Issue,-577,Weekly issue summary,system,453
+2026-11-08,5,7,,Issue,-356,Weekly issue summary,system,454
+2026-09-20,5,8,,Issue,-94,Weekly issue summary,system,455
+2026-09-27,5,8,,Issue,-243,Weekly issue summary,system,456
+2026-10-04,5,8,,Issue,-222,Weekly issue summary,system,457
+2026-10-11,5,8,,Issue,-260,Weekly issue summary,system,458
+2026-10-18,5,8,,Issue,-261,Weekly issue summary,system,459
+2026-10-25,5,8,,Issue,-257,Weekly issue summary,system,460
+2026-11-01,5,8,,Issue,-235,Weekly issue summary,system,461
+2026-11-08,5,8,,Issue,-204,Weekly issue summary,system,462
+2026-09-20,6,4,,Issue,-708,Weekly issue summary,system,463
+2026-09-27,6,4,,Issue,-1959,Weekly issue summary,system,464
+2026-10-04,6,4,,Issue,-1994,Weekly issue summary,system,465
+2026-10-11,6,4,,Issue,-1953,Weekly issue summary,system,466
+2026-10-18,6,4,,Issue,-2042,Weekly issue summary,system,467
+2026-10-25,6,4,,Issue,-1900,Weekly issue summary,system,468
+2026-11-01,6,4,,Issue,-1884,Weekly issue summary,system,469
+2026-11-08,6,4,,Issue,-3297,Weekly issue summary,system,470
+2026-09-20,6,5,,Issue,-448,Weekly issue summary,system,471
+2026-09-27,6,5,,Issue,-1233,Weekly issue summary,system,472
+2026-10-04,6,5,,Issue,-1167,Weekly issue summary,system,473
+2026-10-11,6,5,,Issue,-1276,Weekly issue summary,system,474
+2026-10-18,6,5,,Issue,-1257,Weekly issue summary,system,475
+2026-10-25,6,5,,Issue,-1229,Weekly issue summary,system,476
+2026-11-01,6,5,,Issue,-1197,Weekly issue summary,system,477
+2026-11-08,6,5,,Issue,-1241,Weekly issue summary,system,478
+2026-09-20,6,6,,Issue,-321,Weekly issue summary,system,479
+2026-09-27,6,6,,Issue,-883,Weekly issue summary,system,480
+2026-10-04,6,6,,Issue,-800,Weekly issue summary,system,481
+2026-10-11,6,6,,Issue,-860,Weekly issue summary,system,482
+2026-10-18,6,6,,Issue,-823,Weekly issue summary,system,483
+2026-10-25,6,6,,Issue,-866,Weekly issue summary,system,484
+2026-11-01,6,6,,Issue,-822,Weekly issue summary,system,485
+2026-11-08,6,6,,Issue,-844,Weekly issue summary,system,486
+2026-09-20,6,7,,Issue,-509,Weekly issue summary,system,487
+2026-09-27,6,7,,Issue,-1352,Weekly issue summary,system,488
+2026-10-04,6,7,,Issue,-1279,Weekly issue summary,system,489
+2026-10-11,6,7,,Issue,-2005,Weekly issue summary,system,490
+2026-10-18,6,7,,Issue,-1984,Weekly issue summary,system,491
+2026-10-25,6,7,,Issue,-1321,Weekly issue summary,system,492
+2026-11-01,6,7,,Issue,-1343,Weekly issue summary,system,493
+2026-11-08,6,7,,Issue,-1371,Weekly issue summary,system,494
+2026-09-20,6,8,,Issue,-338,Weekly issue summary,system,495
+2026-09-27,6,8,,Issue,-932,Weekly issue summary,system,496
+2026-10-04,6,8,,Issue,-938,Weekly issue summary,system,497
+2026-10-11,6,8,,Issue,-935,Weekly issue summary,system,498
+2026-10-18,6,8,,Issue,-959,Weekly issue summary,system,499
+2026-10-25,6,8,,Issue,-1015,Weekly issue summary,system,500
+2026-11-01,6,8,,Issue,-972,Weekly issue summary,system,501
+2026-11-08,6,8,,Issue,-919,Weekly issue summary,system,502
+2026-09-20,7,4,,Issue,-48,Weekly issue summary,system,503
+2026-09-27,7,4,,Issue,-148,Weekly issue summary,system,504
+2026-10-04,7,4,,Issue,-139,Weekly issue summary,system,505
+2026-10-11,7,4,,Issue,-133,Weekly issue summary,system,506
+2026-10-18,7,4,,Issue,-153,Weekly issue summary,system,507
+2026-10-25,7,4,,Issue,-156,Weekly issue summary,system,508
+2026-11-01,7,4,,Issue,-136,Weekly issue summary,system,509
+2026-11-08,7,4,,Issue,-149,Weekly issue summary,system,510
+2026-09-20,7,5,,Issue,-57,Weekly issue summary,system,511
+2026-09-27,7,5,,Issue,-101,Weekly issue summary,system,512
+2026-10-04,7,5,,Issue,-91,Weekly issue summary,system,513
+2026-10-11,7,5,,Issue,-89,Weekly issue summary,system,514
+2026-10-18,7,5,,Issue,-89,Weekly issue summary,system,515
+2026-10-25,7,5,,Issue,-94,Weekly issue summary,system,516
+2026-11-01,7,5,,Issue,-79,Weekly issue summary,system,517
+2026-11-08,7,5,,Issue,-92,Weekly issue summary,system,518
+2026-09-20,7,6,,Issue,-28,Weekly issue summary,system,519
+2026-09-27,7,6,,Issue,-62,Weekly issue summary,system,520
+2026-10-04,7,6,,Issue,-57,Weekly issue summary,system,521
+2026-10-11,7,6,,Issue,-71,Weekly issue summary,system,522
+2026-10-18,7,6,,Issue,-72,Weekly issue summary,system,523
+2026-10-25,7,6,,Issue,-70,Weekly issue summary,system,524
+2026-11-01,7,6,,Issue,-58,Weekly issue summary,system,525
+2026-11-08,7,6,,Issue,-55,Weekly issue summary,system,526
+2026-09-20,7,7,,Issue,-36,Weekly issue summary,system,527
+2026-09-27,7,7,,Issue,-114,Weekly issue summary,system,528
+2026-10-04,7,7,,Issue,-117,Weekly issue summary,system,529
+2026-10-11,7,7,,Issue,-94,Weekly issue summary,system,530
+2026-10-18,7,7,,Issue,-80,Weekly issue summary,system,531
+2026-10-25,7,7,,Issue,-101,Weekly issue summary,system,532
+2026-11-01,7,7,,Issue,-115,Weekly issue summary,system,533
+2026-11-08,7,7,,Issue,-99,Weekly issue summary,system,534
+2026-09-20,7,8,,Issue,-28,Weekly issue summary,system,535
+2026-09-27,7,8,,Issue,-73,Weekly issue summary,system,536
+2026-10-04,7,8,,Issue,-74,Weekly issue summary,system,537
+2026-10-11,7,8,,Issue,-112,Weekly issue summary,system,538
+2026-10-18,7,8,,Issue,-63,Weekly issue summary,system,539
+2026-10-25,7,8,,Issue,-71,Weekly issue summary,system,540
+2026-11-01,7,8,,Issue,-72,Weekly issue summary,system,541
+2026-11-08,7,8,,Issue,-158,Weekly issue summary,system,542
+2026-09-20,8,4,,Issue,-546,Weekly issue summary,system,543
+2026-09-27,8,4,,Issue,-1536,Weekly issue summary,system,544
+2026-10-04,8,4,,Issue,-1572,Weekly issue summary,system,545
+2026-10-11,8,4,,Issue,-1676,Weekly issue summary,system,546
+2026-10-18,8,4,,Issue,-1823,Weekly issue summary,system,547
+2026-10-25,8,4,,Issue,-1757,Weekly issue summary,system,548
+2026-11-01,8,4,,Issue,-1879,Weekly issue summary,system,549
+2026-11-08,8,4,,Issue,-1922,Weekly issue summary,system,550
+2026-09-20,8,5,,Issue,-365,Weekly issue summary,system,551
+2026-09-27,8,5,,Issue,-1046,Weekly issue summary,system,552
+2026-10-04,8,5,,Issue,-981,Weekly issue summary,system,553
+2026-10-11,8,5,,Issue,-1043,Weekly issue summary,system,554
+2026-10-18,8,5,,Issue,-1020,Weekly issue summary,system,555
+2026-10-25,8,5,,Issue,-1135,Weekly issue summary,system,556
+2026-11-01,8,5,,Issue,-1212,Weekly issue summary,system,557
+2026-11-08,8,5,,Issue,-1222,Weekly issue summary,system,558
+2026-09-20,8,6,,Issue,-234,Weekly issue summary,system,559
+2026-09-27,8,6,,Issue,-644,Weekly issue summary,system,560
+2026-10-04,8,6,,Issue,-700,Weekly issue summary,system,561
+2026-10-11,8,6,,Issue,-1163,Weekly issue summary,system,562
+2026-10-18,8,6,,Issue,-781,Weekly issue summary,system,563
+2026-10-25,8,6,,Issue,-791,Weekly issue summary,system,564
+2026-11-01,8,6,,Issue,-798,Weekly issue summary,system,565
+2026-11-08,8,6,,Issue,-888,Weekly issue summary,system,566
+2026-09-20,8,7,,Issue,-387,Weekly issue summary,system,567
+2026-09-27,8,7,,Issue,-1134,Weekly issue summary,system,568
+2026-10-04,8,7,,Issue,-1086,Weekly issue summary,system,569
+2026-10-11,8,7,,Issue,-1153,Weekly issue summary,system,570
+2026-10-18,8,7,,Issue,-1233,Weekly issue summary,system,571
+2026-10-25,8,7,,Issue,-1259,Weekly issue summary,system,572
+2026-11-01,8,7,,Issue,-1296,Weekly issue summary,system,573
+2026-11-08,8,7,,Issue,-1287,Weekly issue summary,system,574
+2026-09-20,8,8,,Issue,-322,Weekly issue summary,system,575
+2026-09-27,8,8,,Issue,-1168,Weekly issue summary,system,576
+2026-10-04,8,8,,Issue,-814,Weekly issue summary,system,577
+2026-10-11,8,8,,Issue,-770,Weekly issue summary,system,578
+2026-10-18,8,8,,Issue,-898,Weekly issue summary,system,579
+2026-10-25,8,8,,Issue,-881,Weekly issue summary,system,580
+2026-11-01,8,8,,Issue,-916,Weekly issue summary,system,581
+2026-11-08,8,8,,Issue,-965,Weekly issue summary,system,582
+2026-09-20,9,4,,Issue,-472,Weekly issue summary,system,583
+2026-09-27,9,4,,Issue,-1086,Weekly issue summary,system,584
+2026-10-04,9,4,,Issue,-1631,Weekly issue summary,system,585
+2026-10-11,9,4,,Issue,-1060,Weekly issue summary,system,586
+2026-10-18,9,4,,Issue,-1060,Weekly issue summary,system,587
+2026-10-25,9,4,,Issue,-1070,Weekly issue summary,system,588
+2026-11-01,9,4,,Issue,-1025,Weekly issue summary,system,589
+2026-11-08,9,4,,Issue,-1102,Weekly issue summary,system,590
+2026-09-20,9,5,,Issue,-256,Weekly issue summary,system,591
+2026-09-27,9,5,,Issue,-684,Weekly issue summary,system,592
+2026-10-04,9,5,,Issue,-685,Weekly issue summary,system,593
+2026-10-11,9,5,,Issue,-567,Weekly issue summary,system,594
+2026-10-18,9,5,,Issue,-724,Weekly issue summary,system,595
+2026-10-25,9,5,,Issue,-601,Weekly issue summary,system,596
+2026-11-01,9,5,,Issue,-664,Weekly issue summary,system,597
+2026-11-08,9,5,,Issue,-645,Weekly issue summary,system,598
+2026-09-20,9,6,,Issue,-190,Weekly issue summary,system,599
+2026-09-27,9,6,,Issue,-493,Weekly issue summary,system,600
+2026-10-04,9,6,,Issue,-487,Weekly issue summary,system,601
+2026-10-11,9,6,,Issue,-453,Weekly issue summary,system,602
+2026-10-18,9,6,,Issue,-474,Weekly issue summary,system,603
+2026-10-25,9,6,,Issue,-448,Weekly issue summary,system,604
+2026-11-01,9,6,,Issue,-501,Weekly issue summary,system,605
+2026-11-08,9,6,,Issue,-502,Weekly issue summary,system,606
+2026-09-20,9,7,,Issue,-281,Weekly issue summary,system,607
+2026-09-27,9,7,,Issue,-770,Weekly issue summary,system,608
+2026-10-04,9,7,,Issue,-738,Weekly issue summary,system,609
+2026-10-11,9,7,,Issue,-727,Weekly issue summary,system,610
+2026-10-18,9,7,,Issue,-757,Weekly issue summary,system,611
+2026-10-25,9,7,,Issue,-707,Weekly issue summary,system,612
+2026-11-01,9,7,,Issue,-751,Weekly issue summary,system,613
+2026-11-08,9,7,,Issue,-763,Weekly issue summary,system,614
+2026-09-20,9,8,,Issue,-166,Weekly issue summary,system,615
+2026-09-27,9,8,,Issue,-562,Weekly issue summary,system,616
+2026-10-04,9,8,,Issue,-514,Weekly issue summary,system,617
+2026-10-11,9,8,,Issue,-512,Weekly issue summary,system,618
+2026-10-18,9,8,,Issue,-592,Weekly issue summary,system,619
+2026-10-25,9,8,,Issue,-541,Weekly issue summary,system,620
+2026-11-01,9,8,,Issue,-597,Weekly issue summary,system,621
+2026-11-08,9,8,,Issue,-542,Weekly issue summary,system,622
+2026-09-20,10,4,,Issue,-30,Weekly issue summary,system,623
+2026-09-27,10,4,,Issue,-110,Weekly issue summary,system,624
+2026-10-04,10,4,,Issue,-90,Weekly issue summary,system,625
+2026-10-11,10,4,,Issue,-89,Weekly issue summary,system,626
+2026-10-18,10,4,,Issue,-88,Weekly issue summary,system,627
+2026-10-25,10,4,,Issue,-79,Weekly issue summary,system,628
+2026-11-01,10,4,,Issue,-96,Weekly issue summary,system,629
+2026-11-08,10,4,,Issue,-85,Weekly issue summary,system,630
+2026-09-20,10,5,,Issue,-15,Weekly issue summary,system,631
+2026-09-27,10,5,,Issue,-56,Weekly issue summary,system,632
+2026-10-04,10,5,,Issue,-62,Weekly issue summary,system,633
+2026-10-11,10,5,,Issue,-63,Weekly issue summary,system,634
+2026-10-18,10,5,,Issue,-94,Weekly issue summary,system,635
+2026-10-25,10,5,,Issue,-53,Weekly issue summary,system,636
+2026-11-01,10,5,,Issue,-55,Weekly issue summary,system,637
+2026-11-08,10,5,,Issue,-50,Weekly issue summary,system,638
+2026-09-20,10,6,,Issue,-14,Weekly issue summary,system,639
+2026-09-27,10,6,,Issue,-44,Weekly issue summary,system,640
+2026-10-04,10,6,,Issue,-42,Weekly issue summary,system,641
+2026-10-11,10,6,,Issue,-51,Weekly issue summary,system,642
+2026-10-18,10,6,,Issue,-61,Weekly issue summary,system,643
+2026-10-25,10,6,,Issue,-43,Weekly issue summary,system,644
+2026-11-01,10,6,,Issue,-50,Weekly issue summary,system,645
+2026-11-08,10,6,,Issue,-53,Weekly issue summary,system,646
+2026-09-20,10,7,,Issue,-20,Weekly issue summary,system,647
+2026-09-27,10,7,,Issue,-65,Weekly issue summary,system,648
+2026-10-04,10,7,,Issue,-61,Weekly issue summary,system,649
+2026-10-11,10,7,,Issue,-61,Weekly issue summary,system,650
+2026-10-18,10,7,,Issue,-81,Weekly issue summary,system,651
+2026-10-25,10,7,,Issue,-69,Weekly issue summary,system,652
+2026-11-01,10,7,,Issue,-65,Weekly issue summary,system,653
+2026-11-08,10,7,,Issue,-64,Weekly issue summary,system,654
+2026-09-20,10,8,,Issue,-17,Weekly issue summary,system,655
+2026-09-27,10,8,,Issue,-50,Weekly issue summary,system,656
+2026-10-04,10,8,,Issue,-53,Weekly issue summary,system,657
+2026-10-11,10,8,,Issue,-52,Weekly issue summary,system,658
+2026-10-18,10,8,,Issue,-59,Weekly issue summary,system,659
+2026-10-25,10,8,,Issue,-54,Weekly issue summary,system,660
+2026-11-01,10,8,,Issue,-39,Weekly issue summary,system,661
+2026-11-08,10,8,,Issue,-52,Weekly issue summary,system,662
+2026-09-20,11,4,,Issue,-62,Weekly issue summary,system,663
+2026-09-27,11,4,,Issue,-160,Weekly issue summary,system,664
+2026-10-04,11,4,,Issue,-195,Weekly issue summary,system,665
+2026-10-11,11,4,,Issue,-205,Weekly issue summary,system,666
+2026-10-18,11,4,,Issue,-170,Weekly issue summary,system,667
+2026-10-25,11,4,,Issue,-180,Weekly issue summary,system,668
+2026-11-01,11,4,,Issue,-260,Weekly issue summary,system,669
+2026-11-08,11,4,,Issue,-254,Weekly issue summary,system,670
+2026-09-20,11,5,,Issue,-42,Weekly issue summary,system,671
+2026-09-27,11,5,,Issue,-109,Weekly issue summary,system,672
+2026-10-04,11,5,,Issue,-119,Weekly issue summary,system,673
+2026-10-11,11,5,,Issue,-107,Weekly issue summary,system,674
+2026-10-18,11,5,,Issue,-121,Weekly issue summary,system,675
+2026-10-25,11,5,,Issue,-114,Weekly issue summary,system,676
+2026-11-01,11,5,,Issue,-120,Weekly issue summary,system,677
+2026-11-08,11,5,,Issue,-111,Weekly issue summary,system,678
+2026-09-20,11,6,,Issue,-25,Weekly issue summary,system,679
+2026-09-27,11,6,,Issue,-76,Weekly issue summary,system,680
+2026-10-04,11,6,,Issue,-79,Weekly issue summary,system,681
+2026-10-11,11,6,,Issue,-64,Weekly issue summary,system,682
+2026-10-18,11,6,,Issue,-84,Weekly issue summary,system,683
+2026-10-25,11,6,,Issue,-85,Weekly issue summary,system,684
+2026-11-01,11,6,,Issue,-73,Weekly issue summary,system,685
+2026-11-08,11,6,,Issue,-68,Weekly issue summary,system,686
+2026-09-20,11,7,,Issue,-45,Weekly issue summary,system,687
+2026-09-27,11,7,,Issue,-137,Weekly issue summary,system,688
+2026-10-04,11,7,,Issue,-135,Weekly issue summary,system,689
+2026-10-11,11,7,,Issue,-140,Weekly issue summary,system,690
+2026-10-18,11,7,,Issue,-115,Weekly issue summary,system,691
+2026-10-25,11,7,,Issue,-142,Weekly issue summary,system,692
+2026-11-01,11,7,,Issue,-118,Weekly issue summary,system,693
+2026-11-08,11,7,,Issue,-123,Weekly issue summary,system,694
+2026-09-20,11,8,,Issue,-35,Weekly issue summary,system,695
+2026-09-27,11,8,,Issue,-95,Weekly issue summary,system,696
+2026-10-04,11,8,,Issue,-83,Weekly issue summary,system,697
+2026-10-11,11,8,,Issue,-83,Weekly issue summary,system,698
+2026-10-18,11,8,,Issue,-107,Weekly issue summary,system,699
+2026-10-25,11,8,,Issue,-75,Weekly issue summary,system,700
+2026-11-01,11,8,,Issue,-83,Weekly issue summary,system,701
+2026-11-08,11,8,,Issue,-75,Weekly issue summary,system,702
+2026-09-20,12,4,,Issue,-549,Weekly issue summary,system,703
+2026-09-27,12,4,,Issue,-1374,Weekly issue summary,system,704
+2026-10-04,12,4,,Issue,-1318,Weekly issue summary,system,705
+2026-10-11,12,4,,Issue,-1323,Weekly issue summary,system,706
+2026-10-18,12,4,,Issue,-1260,Weekly issue summary,system,707
+2026-10-25,12,4,,Issue,-1171,Weekly issue summary,system,708
+2026-11-01,12,4,,Issue,-1217,Weekly issue summary,system,709
+2026-11-08,12,4,,Issue,-1179,Weekly issue summary,system,710
+2026-09-20,12,5,,Issue,-334,Weekly issue summary,system,711
+2026-09-27,12,5,,Issue,-851,Weekly issue summary,system,712
+2026-10-04,12,5,,Issue,-854,Weekly issue summary,system,713
+2026-10-11,12,5,,Issue,-785,Weekly issue summary,system,714
+2026-10-18,12,5,,Issue,-806,Weekly issue summary,system,715
+2026-10-25,12,5,,Issue,-724,Weekly issue summary,system,716
+2026-11-01,12,5,,Issue,-718,Weekly issue summary,system,717
+2026-11-08,12,5,,Issue,-731,Weekly issue summary,system,718
+2026-09-20,12,6,,Issue,-228,Weekly issue summary,system,719
+2026-09-27,12,6,,Issue,-610,Weekly issue summary,system,720
+2026-10-04,12,6,,Issue,-559,Weekly issue summary,system,721
+2026-10-11,12,6,,Issue,-548,Weekly issue summary,system,722
+2026-10-18,12,6,,Issue,-574,Weekly issue summary,system,723
+2026-10-25,12,6,,Issue,-543,Weekly issue summary,system,724
+2026-11-01,12,6,,Issue,-533,Weekly issue summary,system,725
+2026-11-08,12,6,,Issue,-497,Weekly issue summary,system,726
+2026-09-20,12,7,,Issue,-351,Weekly issue summary,system,727
+2026-09-27,12,7,,Issue,-985,Weekly issue summary,system,728
+2026-10-04,12,7,,Issue,-917,Weekly issue summary,system,729
+2026-10-11,12,7,,Issue,-916,Weekly issue summary,system,730
+2026-10-18,12,7,,Issue,-886,Weekly issue summary,system,731
+2026-10-25,12,7,,Issue,-826,Weekly issue summary,system,732
+2026-11-01,12,7,,Issue,-777,Weekly issue summary,system,733
+2026-11-08,12,7,,Issue,-837,Weekly issue summary,system,734
+2026-09-20,12,8,,Issue,-299,Weekly issue summary,system,735
+2026-09-27,12,8,,Issue,-975,Weekly issue summary,system,736
+2026-10-04,12,8,,Issue,-726,Weekly issue summary,system,737
+2026-10-11,12,8,,Issue,-672,Weekly issue summary,system,738
+2026-10-18,12,8,,Issue,-668,Weekly issue summary,system,739
+2026-10-25,12,8,,Issue,-613,Weekly issue summary,system,740
+2026-11-01,12,8,,Issue,-621,Weekly issue summary,system,741
+2026-11-08,12,8,,Issue,-554,Weekly issue summary,system,742
+2026-09-20,13,4,,Issue,-317,Weekly issue summary,system,743
+2026-09-27,13,4,,Issue,-1704,Weekly issue summary,system,744
+2026-10-04,13,4,,Issue,-1041,Weekly issue summary,system,745
+2026-10-11,13,4,,Issue,-827,Weekly issue summary,system,746
+2026-10-18,13,4,,Issue,-840,Weekly issue summary,system,747
+2026-10-25,13,4,,Issue,-851,Weekly issue summary,system,748
+2026-11-01,13,4,,Issue,-863,Weekly issue summary,system,749
+2026-11-08,13,4,,Issue,-839,Weekly issue summary,system,750
+2026-09-20,13,5,,Issue,-203,Weekly issue summary,system,751
+2026-09-27,13,5,,Issue,-490,Weekly issue summary,system,752
+2026-10-04,13,5,,Issue,-544,Weekly issue summary,system,753
+2026-10-11,13,5,,Issue,-527,Weekly issue summary,system,754
+2026-10-18,13,5,,Issue,-528,Weekly issue summary,system,755
+2026-10-25,13,5,,Issue,-543,Weekly issue summary,system,756
+2026-11-01,13,5,,Issue,-523,Weekly issue summary,system,757
+2026-11-08,13,5,,Issue,-578,Weekly issue summary,system,758
+2026-09-20,13,6,,Issue,-146,Weekly issue summary,system,759
+2026-09-27,13,6,,Issue,-353,Weekly issue summary,system,760
+2026-10-04,13,6,,Issue,-373,Weekly issue summary,system,761
+2026-10-11,13,6,,Issue,-366,Weekly issue summary,system,762
+2026-10-18,13,6,,Issue,-368,Weekly issue summary,system,763
+2026-10-25,13,6,,Issue,-379,Weekly issue summary,system,764
+2026-11-01,13,6,,Issue,-385,Weekly issue summary,system,765
+2026-11-08,13,6,,Issue,-418,Weekly issue summary,system,766
+2026-09-20,13,7,,Issue,-216,Weekly issue summary,system,767
+2026-09-27,13,7,,Issue,-561,Weekly issue summary,system,768
+2026-10-04,13,7,,Issue,-564,Weekly issue summary,system,769
+2026-10-11,13,7,,Issue,-554,Weekly issue summary,system,770
+2026-10-18,13,7,,Issue,-566,Weekly issue summary,system,771
+2026-10-25,13,7,,Issue,-564,Weekly issue summary,system,772
+2026-11-01,13,7,,Issue,-556,Weekly issue summary,system,773
+2026-11-08,13,7,,Issue,-580,Weekly issue summary,system,774
+2026-09-20,13,8,,Issue,-155,Weekly issue summary,system,775
+2026-09-27,13,8,,Issue,-397,Weekly issue summary,system,776
+2026-10-04,13,8,,Issue,-422,Weekly issue summary,system,777
+2026-10-11,13,8,,Issue,-422,Weekly issue summary,system,778
+2026-10-18,13,8,,Issue,-429,Weekly issue summary,system,779
+2026-10-25,13,8,,Issue,-447,Weekly issue summary,system,780
+2026-11-01,13,8,,Issue,-432,Weekly issue summary,system,781
+2026-11-08,13,8,,Issue,-435,Weekly issue summary,system,782
+2026-09-20,14,4,,Issue,-205,Weekly issue summary,system,783
+2026-09-27,14,4,,Issue,-541,Weekly issue summary,system,784
+2026-10-04,14,4,,Issue,-557,Weekly issue summary,system,785
+2026-10-11,14,4,,Issue,-580,Weekly issue summary,system,786
+2026-10-18,14,4,,Issue,-550,Weekly issue summary,system,787
+2026-10-25,14,4,,Issue,-557,Weekly issue summary,system,788
+2026-11-01,14,4,,Issue,-508,Weekly issue summary,system,789
+2026-11-08,14,4,,Issue,-529,Weekly issue summary,system,790
+2026-09-20,14,5,,Issue,-119,Weekly issue summary,system,791
+2026-09-27,14,5,,Issue,-328,Weekly issue summary,system,792
+2026-10-04,14,5,,Issue,-376,Weekly issue summary,system,793
+2026-10-11,14,5,,Issue,-345,Weekly issue summary,system,794
+2026-10-18,14,5,,Issue,-313,Weekly issue summary,system,795
+2026-10-25,14,5,,Issue,-326,Weekly issue summary,system,796
+2026-11-01,14,5,,Issue,-329,Weekly issue summary,system,797
+2026-11-08,14,5,,Issue,-327,Weekly issue summary,system,798
+2026-09-20,14,6,,Issue,-95,Weekly issue summary,system,799
+2026-09-27,14,6,,Issue,-238,Weekly issue summary,system,800
+2026-10-04,14,6,,Issue,-278,Weekly issue summary,system,801
+2026-10-11,14,6,,Issue,-225,Weekly issue summary,system,802
+2026-10-18,14,6,,Issue,-229,Weekly issue summary,system,803
+2026-10-25,14,6,,Issue,-254,Weekly issue summary,system,804
+2026-11-01,14,6,,Issue,-244,Weekly issue summary,system,805
+2026-11-08,14,6,,Issue,-222,Weekly issue summary,system,806
+2026-09-20,14,7,,Issue,-138,Weekly issue summary,system,807
+2026-09-27,14,7,,Issue,-349,Weekly issue summary,system,808
+2026-10-04,14,7,,Issue,-387,Weekly issue summary,system,809
+2026-10-11,14,7,,Issue,-371,Weekly issue summary,system,810
+2026-10-18,14,7,,Issue,-374,Weekly issue summary,system,811
+2026-10-25,14,7,,Issue,-389,Weekly issue summary,system,812
+2026-11-01,14,7,,Issue,-385,Weekly issue summary,system,813
+2026-11-08,14,7,,Issue,-354,Weekly issue summary,system,814
+2026-09-20,14,8,,Issue,-109,Weekly issue summary,system,815
+2026-09-27,14,8,,Issue,-262,Weekly issue summary,system,816
+2026-10-04,14,8,,Issue,-256,Weekly issue summary,system,817
+2026-10-11,14,8,,Issue,-427,Weekly issue summary,system,818
+2026-10-18,14,8,,Issue,-408,Weekly issue summary,system,819
+2026-10-25,14,8,,Issue,-289,Weekly issue summary,system,820
+2026-11-01,14,8,,Issue,-278,Weekly issue summary,system,821
+2026-11-08,14,8,,Issue,-219,Weekly issue summary,system,822
+2026-09-20,15,4,,Issue,-57,Weekly issue summary,system,823
+2026-09-27,15,4,,Issue,-165,Weekly issue summary,system,824
+2026-10-04,15,4,,Issue,-172,Weekly issue summary,system,825
+2026-10-11,15,4,,Issue,-149,Weekly issue summary,system,826
+2026-10-18,15,4,,Issue,-206,Weekly issue summary,system,827
+2026-10-25,15,4,,Issue,-178,Weekly issue summary,system,828
+2026-11-01,15,4,,Issue,-206,Weekly issue summary,system,829
+2026-11-08,15,4,,Issue,-192,Weekly issue summary,system,830
+2026-09-20,15,5,,Issue,-31,Weekly issue summary,system,831
+2026-09-27,15,5,,Issue,-115,Weekly issue summary,system,832
+2026-10-04,15,5,,Issue,-106,Weekly issue summary,system,833
+2026-10-11,15,5,,Issue,-104,Weekly issue summary,system,834
+2026-10-18,15,5,,Issue,-117,Weekly issue summary,system,835
+2026-10-25,15,5,,Issue,-107,Weekly issue summary,system,836
+2026-11-01,15,5,,Issue,-119,Weekly issue summary,system,837
+2026-11-08,15,5,,Issue,-139,Weekly issue summary,system,838
+2026-09-20,15,6,,Issue,-23,Weekly issue summary,system,839
+2026-09-27,15,6,,Issue,-52,Weekly issue summary,system,840
+2026-10-04,15,6,,Issue,-73,Weekly issue summary,system,841
+2026-10-11,15,6,,Issue,-83,Weekly issue summary,system,842
+2026-10-18,15,6,,Issue,-93,Weekly issue summary,system,843
+2026-10-25,15,6,,Issue,-141,Weekly issue summary,system,844
+2026-11-01,15,6,,Issue,-80,Weekly issue summary,system,845
+2026-11-08,15,6,,Issue,-94,Weekly issue summary,system,846
+2026-09-20,15,7,,Issue,-50,Weekly issue summary,system,847
+2026-09-27,15,7,,Issue,-124,Weekly issue summary,system,848
+2026-10-04,15,7,,Issue,-112,Weekly issue summary,system,849
+2026-10-11,15,7,,Issue,-113,Weekly issue summary,system,850
+2026-10-18,15,7,,Issue,-126,Weekly issue summary,system,851
+2026-10-25,15,7,,Issue,-111,Weekly issue summary,system,852
+2026-11-01,15,7,,Issue,-104,Weekly issue summary,system,853
+2026-11-08,15,7,,Issue,-141,Weekly issue summary,system,854
+2026-09-20,15,8,,Issue,-30,Weekly issue summary,system,855
+2026-09-27,15,8,,Issue,-76,Weekly issue summary,system,856
+2026-10-04,15,8,,Issue,-69,Weekly issue summary,system,857
+2026-10-11,15,8,,Issue,-160,Weekly issue summary,system,858
+2026-10-18,15,8,,Issue,-83,Weekly issue summary,system,859
+2026-10-25,15,8,,Issue,-89,Weekly issue summary,system,860
+2026-11-01,15,8,,Issue,-91,Weekly issue summary,system,861
+2026-11-08,15,8,,Issue,-103,Weekly issue summary,system,862
+2026-09-20,16,4,,Issue,-573,Weekly issue summary,system,863
+2026-09-27,16,4,,Issue,-1585,Weekly issue summary,system,864
+2026-10-04,16,4,,Issue,-1500,Weekly issue summary,system,865
+2026-10-11,16,4,,Issue,-1567,Weekly issue summary,system,866
+2026-10-18,16,4,,Issue,-1570,Weekly issue summary,system,867
+2026-10-25,16,4,,Issue,-1484,Weekly issue summary,system,868
+2026-11-01,16,4,,Issue,-1573,Weekly issue summary,system,869
+2026-11-08,16,4,,Issue,-1544,Weekly issue summary,system,870
+2026-09-20,16,5,,Issue,-377,Weekly issue summary,system,871
+2026-09-27,16,5,,Issue,-980,Weekly issue summary,system,872
+2026-10-04,16,5,,Issue,-962,Weekly issue summary,system,873
+2026-10-11,16,5,,Issue,-971,Weekly issue summary,system,874
+2026-10-18,16,5,,Issue,-987,Weekly issue summary,system,875
+2026-10-25,16,5,,Issue,-989,Weekly issue summary,system,876
+2026-11-01,16,5,,Issue,-983,Weekly issue summary,system,877
+2026-11-08,16,5,,Issue,-958,Weekly issue summary,system,878
+2026-09-20,16,6,,Issue,-247,Weekly issue summary,system,879
+2026-09-27,16,6,,Issue,-687,Weekly issue summary,system,880
+2026-10-04,16,6,,Issue,-736,Weekly issue summary,system,881
+2026-10-11,16,6,,Issue,-723,Weekly issue summary,system,882
+2026-10-18,16,6,,Issue,-694,Weekly issue summary,system,883
+2026-10-25,16,6,,Issue,-678,Weekly issue summary,system,884
+2026-11-01,16,6,,Issue,-722,Weekly issue summary,system,885
+2026-11-08,16,6,,Issue,-705,Weekly issue summary,system,886
+2026-09-20,16,7,,Issue,-416,Weekly issue summary,system,887
+2026-09-27,16,7,,Issue,-1061,Weekly issue summary,system,888
+2026-10-04,16,7,,Issue,-1131,Weekly issue summary,system,889
+2026-10-11,16,7,,Issue,-1067,Weekly issue summary,system,890
+2026-10-18,16,7,,Issue,-1141,Weekly issue summary,system,891
+2026-10-25,16,7,,Issue,-1069,Weekly issue summary,system,892
+2026-11-01,16,7,,Issue,-1055,Weekly issue summary,system,893
+2026-11-08,16,7,,Issue,-1151,Weekly issue summary,system,894
+2026-09-20,16,8,,Issue,-264,Weekly issue summary,system,895
+2026-09-27,16,8,,Issue,-2048,Weekly issue summary,system,896
+2026-10-04,16,8,,Issue,-755,Weekly issue summary,system,897
+2026-10-11,16,8,,Issue,-787,Weekly issue summary,system,898
+2026-10-18,16,8,,Issue,-789,Weekly issue summary,system,899
+2026-10-25,16,8,,Issue,-768,Weekly issue summary,system,900
+2026-11-01,16,8,,Issue,-801,Weekly issue summary,system,901
+2026-11-08,16,8,,Issue,-788,Weekly issue summary,system,902
+2026-09-20,17,4,,Issue,-90,Weekly issue summary,system,903
+2026-09-27,17,4,,Issue,-249,Weekly issue summary,system,904
+2026-10-04,17,4,,Issue,-234,Weekly issue summary,system,905
+2026-10-11,17,4,,Issue,-222,Weekly issue summary,system,906
+2026-10-18,17,4,,Issue,-239,Weekly issue summary,system,907
+2026-10-25,17,4,,Issue,-243,Weekly issue summary,system,908
+2026-11-01,17,4,,Issue,-256,Weekly issue summary,system,909
+2026-11-08,17,4,,Issue,-248,Weekly issue summary,system,910
+2026-09-20,17,5,,Issue,-41,Weekly issue summary,system,911
+2026-09-27,17,5,,Issue,-143,Weekly issue summary,system,912
+2026-10-04,17,5,,Issue,-144,Weekly issue summary,system,913
+2026-10-11,17,5,,Issue,-155,Weekly issue summary,system,914
+2026-10-18,17,5,,Issue,-159,Weekly issue summary,system,915
+2026-10-25,17,5,,Issue,-171,Weekly issue summary,system,916
+2026-11-01,17,5,,Issue,-188,Weekly issue summary,system,917
+2026-11-08,17,5,,Issue,-131,Weekly issue summary,system,918
+2026-09-20,17,6,,Issue,-39,Weekly issue summary,system,919
+2026-09-27,17,6,,Issue,-111,Weekly issue summary,system,920
+2026-10-04,17,6,,Issue,-106,Weekly issue summary,system,921
+2026-10-11,17,6,,Issue,-92,Weekly issue summary,system,922
+2026-10-18,17,6,,Issue,-112,Weekly issue summary,system,923
+2026-10-25,17,6,,Issue,-102,Weekly issue summary,system,924
+2026-11-01,17,6,,Issue,-145,Weekly issue summary,system,925
+2026-11-08,17,6,,Issue,-128,Weekly issue summary,system,926
+2026-09-20,17,7,,Issue,-59,Weekly issue summary,system,927
+2026-09-27,17,7,,Issue,-171,Weekly issue summary,system,928
+2026-10-04,17,7,,Issue,-147,Weekly issue summary,system,929
+2026-10-11,17,7,,Issue,-180,Weekly issue summary,system,930
+2026-10-18,17,7,,Issue,-158,Weekly issue summary,system,931
+2026-10-25,17,7,,Issue,-165,Weekly issue summary,system,932
+2026-11-01,17,7,,Issue,-188,Weekly issue summary,system,933
+2026-11-08,17,7,,Issue,-158,Weekly issue summary,system,934
+2026-09-20,17,8,,Issue,-46,Weekly issue summary,system,935
+2026-09-27,17,8,,Issue,-125,Weekly issue summary,system,936
+2026-10-04,17,8,,Issue,-117,Weekly issue summary,system,937
+2026-10-11,17,8,,Issue,-113,Weekly issue summary,system,938
+2026-10-18,17,8,,Issue,-112,Weekly issue summary,system,939
+2026-10-25,17,8,,Issue,-104,Weekly issue summary,system,940
+2026-11-01,17,8,,Issue,-98,Weekly issue summary,system,941
+2026-11-08,17,8,,Issue,-135,Weekly issue summary,system,942
+2026-09-20,18,4,,Issue,-139,Weekly issue summary,system,943
+2026-09-27,18,4,,Issue,-350,Weekly issue summary,system,944
+2026-10-04,18,4,,Issue,-331,Weekly issue summary,system,945
+2026-10-11,18,4,,Issue,-355,Weekly issue summary,system,946
+2026-10-18,18,4,,Issue,-335,Weekly issue summary,system,947
+2026-10-25,18,4,,Issue,-499,Weekly issue summary,system,948
+2026-11-01,18,4,,Issue,-332,Weekly issue summary,system,949
+2026-11-08,18,4,,Issue,-358,Weekly issue summary,system,950
+2026-09-20,18,5,,Issue,-82,Weekly issue summary,system,951
+2026-09-27,18,5,,Issue,-211,Weekly issue summary,system,952
+2026-10-04,18,5,,Issue,-210,Weekly issue summary,system,953
+2026-10-11,18,5,,Issue,-232,Weekly issue summary,system,954
+2026-10-18,18,5,,Issue,-200,Weekly issue summary,system,955
+2026-10-25,18,5,,Issue,-215,Weekly issue summary,system,956
+2026-11-01,18,5,,Issue,-222,Weekly issue summary,system,957
+2026-11-08,18,5,,Issue,-220,Weekly issue summary,system,958
+2026-09-20,18,6,,Issue,-79,Weekly issue summary,system,959
+2026-09-27,18,6,,Issue,-202,Weekly issue summary,system,960
+2026-10-04,18,6,,Issue,-140,Weekly issue summary,system,961
+2026-10-11,18,6,,Issue,-135,Weekly issue summary,system,962
+2026-10-18,18,6,,Issue,-140,Weekly issue summary,system,963
+2026-10-25,18,6,,Issue,-233,Weekly issue summary,system,964
+2026-11-01,18,6,,Issue,-148,Weekly issue summary,system,965
+2026-11-08,18,6,,Issue,-126,Weekly issue summary,system,966
+2026-09-20,18,7,,Issue,-88,Weekly issue summary,system,967
+2026-09-27,18,7,,Issue,-228,Weekly issue summary,system,968
+2026-10-04,18,7,,Issue,-221,Weekly issue summary,system,969
+2026-10-11,18,7,,Issue,-244,Weekly issue summary,system,970
+2026-10-18,18,7,,Issue,-221,Weekly issue summary,system,971
+2026-10-25,18,7,,Issue,-245,Weekly issue summary,system,972
+2026-11-01,18,7,,Issue,-193,Weekly issue summary,system,973
+2026-11-08,18,7,,Issue,-218,Weekly issue summary,system,974
+2026-09-20,18,8,,Issue,-64,Weekly issue summary,system,975
+2026-09-27,18,8,,Issue,-217,Weekly issue summary,system,976
+2026-10-04,18,8,,Issue,-194,Weekly issue summary,system,977
+2026-10-11,18,8,,Issue,-142,Weekly issue summary,system,978
+2026-10-18,18,8,,Issue,-189,Weekly issue summary,system,979
+2026-10-25,18,8,,Issue,-174,Weekly issue summary,system,980
+2026-11-01,18,8,,Issue,-163,Weekly issue summary,system,981
+2026-11-08,18,8,,Issue,-172,Weekly issue summary,system,982
+2026-09-20,19,4,,Issue,-36,Weekly issue summary,system,983
+2026-09-27,19,4,,Issue,-120,Weekly issue summary,system,984
+2026-10-04,19,4,,Issue,-127,Weekly issue summary,system,985
+2026-10-11,19,4,,Issue,-122,Weekly issue summary,system,986
+2026-10-18,19,4,,Issue,-133,Weekly issue summary,system,987
+2026-10-25,19,4,,Issue,-119,Weekly issue summary,system,988
+2026-11-01,19,4,,Issue,-99,Weekly issue summary,system,989
+2026-11-08,19,4,,Issue,-101,Weekly issue summary,system,990
+2026-09-20,19,5,,Issue,-36,Weekly issue summary,system,991
+2026-09-27,19,5,,Issue,-97,Weekly issue summary,system,992
+2026-10-04,19,5,,Issue,-75,Weekly issue summary,system,993
+2026-10-11,19,5,,Issue,-78,Weekly issue summary,system,994
+2026-10-18,19,5,,Issue,-75,Weekly issue summary,system,995
+2026-10-25,19,5,,Issue,-89,Weekly issue summary,system,996
+2026-11-01,19,5,,Issue,-67,Weekly issue summary,system,997
+2026-11-08,19,5,,Issue,-69,Weekly issue summary,system,998
+2026-09-20,19,6,,Issue,-24,Weekly issue summary,system,999
+2026-09-27,19,6,,Issue,-43,Weekly issue summary,system,1000
+2026-10-04,19,6,,Issue,-61,Weekly issue summary,system,1001
+2026-10-11,19,6,,Issue,-62,Weekly issue summary,system,1002
+2026-10-18,19,6,,Issue,-66,Weekly issue summary,system,1003
+2026-10-25,19,6,,Issue,-54,Weekly issue summary,system,1004
+2026-11-01,19,6,,Issue,-61,Weekly issue summary,system,1005
+2026-11-08,19,6,,Issue,-49,Weekly issue summary,system,1006
+2026-09-20,19,7,,Issue,-29,Weekly issue summary,system,1007
+2026-09-27,19,7,,Issue,-80,Weekly issue summary,system,1008
+2026-10-04,19,7,,Issue,-102,Weekly issue summary,system,1009
+2026-10-11,19,7,,Issue,-90,Weekly issue summary,system,1010
+2026-10-18,19,7,,Issue,-92,Weekly issue summary,system,1011
+2026-10-25,19,7,,Issue,-99,Weekly issue summary,system,1012
+2026-11-01,19,7,,Issue,-71,Weekly issue summary,system,1013
+2026-11-08,19,7,,Issue,-91,Weekly issue summary,system,1014
+2026-09-20,19,8,,Issue,-13,Weekly issue summary,system,1015
+2026-09-27,19,8,,Issue,-59,Weekly issue summary,system,1016
+2026-10-04,19,8,,Issue,-62,Weekly issue summary,system,1017
+2026-10-11,19,8,,Issue,-62,Weekly issue summary,system,1018
+2026-10-18,19,8,,Issue,-58,Weekly issue summary,system,1019
+2026-10-25,19,8,,Issue,-50,Weekly issue summary,system,1020
+2026-11-01,19,8,,Issue,-53,Weekly issue summary,system,1021
+2026-11-08,19,8,,Issue,-65,Weekly issue summary,system,1022
+2026-09-20,20,4,,Issue,-17,Weekly issue summary,system,1023
+2026-09-27,20,4,,Issue,-38,Weekly issue summary,system,1024
+2026-10-04,20,4,,Issue,-17,Weekly issue summary,system,1025
+2026-10-11,20,4,,Issue,-23,Weekly issue summary,system,1026
+2026-10-18,20,4,,Issue,-24,Weekly issue summary,system,1027
+2026-10-25,20,4,,Issue,-18,Weekly issue summary,system,1028
+2026-11-01,20,4,,Issue,-16,Weekly issue summary,system,1029
+2026-11-08,20,4,,Issue,-26,Weekly issue summary,system,1030
+2026-09-20,20,5,,Issue,-7,Weekly issue summary,system,1031
+2026-09-27,20,5,,Issue,-15,Weekly issue summary,system,1032
+2026-10-04,20,5,,Issue,-6,Weekly issue summary,system,1033
+2026-10-11,20,5,,Issue,-12,Weekly issue summary,system,1034
+2026-10-18,20,5,,Issue,-15,Weekly issue summary,system,1035
+2026-10-25,20,5,,Issue,-10,Weekly issue summary,system,1036
+2026-11-01,20,5,,Issue,-12,Weekly issue summary,system,1037
+2026-11-08,20,5,,Issue,-10,Weekly issue summary,system,1038
+2026-09-20,20,6,,Issue,-2,Weekly issue summary,system,1039
+2026-09-27,20,6,,Issue,-7,Weekly issue summary,system,1040
+2026-10-04,20,6,,Issue,-9,Weekly issue summary,system,1041
+2026-10-11,20,6,,Issue,-9,Weekly issue summary,system,1042
+2026-10-18,20,6,,Issue,-9,Weekly issue summary,system,1043
+2026-10-25,20,6,,Issue,-7,Weekly issue summary,system,1044
+2026-11-01,20,6,,Issue,-12,Weekly issue summary,system,1045
+2026-11-08,20,6,,Issue,-10,Weekly issue summary,system,1046
+2026-09-20,20,7,,Issue,-8,Weekly issue summary,system,1047
+2026-09-27,20,7,,Issue,-31,Weekly issue summary,system,1048
+2026-10-04,20,7,,Issue,-19,Weekly issue summary,system,1049
+2026-10-11,20,7,,Issue,-15,Weekly issue summary,system,1050
+2026-10-18,20,7,,Issue,-10,Weekly issue summary,system,1051
+2026-10-25,20,7,,Issue,-10,Weekly issue summary,system,1052
+2026-11-01,20,7,,Issue,-12,Weekly issue summary,system,1053
+2026-11-08,20,7,,Issue,-15,Weekly issue summary,system,1054
+2026-09-20,20,8,,Issue,-2,Weekly issue summary,system,1055
+2026-09-27,20,8,,Issue,-13,Weekly issue summary,system,1056
+2026-10-04,20,8,,Issue,-6,Weekly issue summary,system,1057
+2026-10-11,20,8,,Issue,-10,Weekly issue summary,system,1058
+2026-10-18,20,8,,Issue,-13,Weekly issue summary,system,1059
+2026-10-25,20,8,,Issue,-16,Weekly issue summary,system,1060
+2026-11-01,20,8,,Issue,-7,Weekly issue summary,system,1061
+2026-11-08,20,8,,Issue,-6,Weekly issue summary,system,1062
+2026-09-20,21,4,,Issue,-29,Weekly issue summary,system,1063
+2026-09-27,21,4,,Issue,-73,Weekly issue summary,system,1064
+2026-10-04,21,4,,Issue,-72,Weekly issue summary,system,1065
+2026-10-11,21,4,,Issue,-66,Weekly issue summary,system,1066
+2026-10-18,21,4,,Issue,-78,Weekly issue summary,system,1067
+2026-10-25,21,4,,Issue,-82,Weekly issue summary,system,1068
+2026-11-01,21,4,,Issue,-72,Weekly issue summary,system,1069
+2026-11-08,21,4,,Issue,-64,Weekly issue summary,system,1070
+2026-09-20,21,5,,Issue,-17,Weekly issue summary,system,1071
+2026-09-27,21,5,,Issue,-58,Weekly issue summary,system,1072
+2026-10-04,21,5,,Issue,-48,Weekly issue summary,system,1073
+2026-10-11,21,5,,Issue,-62,Weekly issue summary,system,1074
+2026-10-18,21,5,,Issue,-40,Weekly issue summary,system,1075
+2026-10-25,21,5,,Issue,-45,Weekly issue summary,system,1076
+2026-11-01,21,5,,Issue,-48,Weekly issue summary,system,1077
+2026-11-08,21,5,,Issue,-34,Weekly issue summary,system,1078
+2026-09-20,21,6,,Issue,-16,Weekly issue summary,system,1079
+2026-09-27,21,6,,Issue,-45,Weekly issue summary,system,1080
+2026-10-04,21,6,,Issue,-46,Weekly issue summary,system,1081
+2026-10-11,21,6,,Issue,-33,Weekly issue summary,system,1082
+2026-10-18,21,6,,Issue,-26,Weekly issue summary,system,1083
+2026-10-25,21,6,,Issue,-60,Weekly issue summary,system,1084
+2026-11-01,21,6,,Issue,-25,Weekly issue summary,system,1085
+2026-11-08,21,6,,Issue,-58,Weekly issue summary,system,1086
+2026-09-20,21,7,,Issue,-20,Weekly issue summary,system,1087
+2026-09-27,21,7,,Issue,-51,Weekly issue summary,system,1088
+2026-10-04,21,7,,Issue,-42,Weekly issue summary,system,1089
+2026-10-11,21,7,,Issue,-38,Weekly issue summary,system,1090
+2026-10-18,21,7,,Issue,-56,Weekly issue summary,system,1091
+2026-10-25,21,7,,Issue,-41,Weekly issue summary,system,1092
+2026-11-01,21,7,,Issue,-53,Weekly issue summary,system,1093
+2026-11-08,21,7,,Issue,-36,Weekly issue summary,system,1094
+2026-09-20,21,8,,Issue,-10,Weekly issue summary,system,1095
+2026-09-27,21,8,,Issue,-35,Weekly issue summary,system,1096
+2026-10-04,21,8,,Issue,-31,Weekly issue summary,system,1097
+2026-10-11,21,8,,Issue,-40,Weekly issue summary,system,1098
+2026-10-18,21,8,,Issue,-43,Weekly issue summary,system,1099
+2026-10-25,21,8,,Issue,-31,Weekly issue summary,system,1100
+2026-11-01,21,8,,Issue,-29,Weekly issue summary,system,1101
+2026-11-08,21,8,,Issue,-49,Weekly issue summary,system,1102
+2026-09-20,22,4,,Issue,-286,Weekly issue summary,system,1103
+2026-09-27,22,4,,Issue,-707,Weekly issue summary,system,1104
+2026-10-04,22,4,,Issue,-691,Weekly issue summary,system,1105
+2026-10-11,22,4,,Issue,-686,Weekly issue summary,system,1106
+2026-10-18,22,4,,Issue,-640,Weekly issue summary,system,1107
+2026-10-25,22,4,,Issue,-651,Weekly issue summary,system,1108
+2026-11-01,22,4,,Issue,-577,Weekly issue summary,system,1109
+2026-11-08,22,4,,Issue,-623,Weekly issue summary,system,1110
+2026-09-20,22,5,,Issue,-147,Weekly issue summary,system,1111
+2026-09-27,22,5,,Issue,-512,Weekly issue summary,system,1112
+2026-10-04,22,5,,Issue,-415,Weekly issue summary,system,1113
+2026-10-11,22,5,,Issue,-419,Weekly issue summary,system,1114
+2026-10-18,22,5,,Issue,-345,Weekly issue summary,system,1115
+2026-10-25,22,5,,Issue,-409,Weekly issue summary,system,1116
+2026-11-01,22,5,,Issue,-381,Weekly issue summary,system,1117
+2026-11-08,22,5,,Issue,-370,Weekly issue summary,system,1118
+2026-09-20,22,6,,Issue,-134,Weekly issue summary,system,1119
+2026-09-27,22,6,,Issue,-308,Weekly issue summary,system,1120
+2026-10-04,22,6,,Issue,-303,Weekly issue summary,system,1121
+2026-10-11,22,6,,Issue,-312,Weekly issue summary,system,1122
+2026-10-18,22,6,,Issue,-259,Weekly issue summary,system,1123
+2026-10-25,22,6,,Issue,-292,Weekly issue summary,system,1124
+2026-11-01,22,6,,Issue,-272,Weekly issue summary,system,1125
+2026-11-08,22,6,,Issue,-194,Weekly issue summary,system,1126
+2026-09-20,22,7,,Issue,-169,Weekly issue summary,system,1127
+2026-09-27,22,7,,Issue,-499,Weekly issue summary,system,1128
+2026-10-04,22,7,,Issue,-467,Weekly issue summary,system,1129
+2026-10-11,22,7,,Issue,-490,Weekly issue summary,system,1130
+2026-10-18,22,7,,Issue,-450,Weekly issue summary,system,1131
+2026-10-25,22,7,,Issue,-411,Weekly issue summary,system,1132
+2026-11-01,22,7,,Issue,-412,Weekly issue summary,system,1133
+2026-11-08,22,7,,Issue,-400,Weekly issue summary,system,1134
+2026-09-20,22,8,,Issue,-116,Weekly issue summary,system,1135
+2026-09-27,22,8,,Issue,-382,Weekly issue summary,system,1136
+2026-10-04,22,8,,Issue,-304,Weekly issue summary,system,1137
+2026-10-11,22,8,,Issue,-342,Weekly issue summary,system,1138
+2026-10-18,22,8,,Issue,-328,Weekly issue summary,system,1139
+2026-10-25,22,8,,Issue,-318,Weekly issue summary,system,1140
+2026-11-01,22,8,,Issue,-342,Weekly issue summary,system,1141
+2026-11-08,22,8,,Issue,-312,Weekly issue summary,system,1142
