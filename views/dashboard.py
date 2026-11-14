@@ -18,12 +18,12 @@ with session_scope() as s:
     fc = pd.DataFrame(s.query(ForecastResult.date, ForecastResult.yhat, ForecastResult.lo, ForecastResult.hi).filter(ForecastResult.facility_id.in_(hid)).all(), columns=["date", "yhat", "lo", "hi"])
     alerts = pd.DataFrame([dict(severity=a.severity, type=a.type, message=a.message, status=a.status, updated=a.updated_at) for a in s.query(Alert).filter(Alert.status == "Open").order_by(Alert.updated_at.desc()).limit(200)])
     acts = pd.DataFrame([dict(time=a.ts, user=a.user, action=a.action, details=a.details[:90]) for a in s.query(AuditLog).order_by(AuditLog.ts.desc()).limit(8)])
-ui.kpi_row([("Total medicines", f"{k['medicines']}", "active lines", "info"), ("Hospitals / facilities", f"{k['facilities']}", "demand points", "info"), ("Warehouses", f"{k['warehouses']}", "supply nodes", "info"),
-            ("Inventory value", f"\u20b9{k['inventory_value'] / 1e5:,.1f} L", "usable stock, synthetic costs", "info"), ("Critical stock alerts", f"{k['critical_alerts']}", "open, severity Critical", "bad" if k["critical_alerts"] else "good")])
+ui.kpi_row([("Total medicines", f"{k['medicines']}", "active lines", "info", "views/inventory.py"), ("Hospitals / facilities", f"{k['facilities']}", "demand points", "info", "views/logistics.py"), ("Warehouses", f"{k['warehouses']}", "supply nodes", "info", "views/logistics.py"),
+            ("Inventory value", f"\u20b9{k['inventory_value'] / 1e5:,.1f} L", "usable stock, synthetic costs", "info", "views/inventory.py"), ("Critical stock alerts", f"{k['critical_alerts']}", "open, severity Critical", "bad" if k["critical_alerts"] else "good", "views/alerts.py")])
 st.write("")
-ui.kpi_row([("Predicted stockouts", f"{k['predicted_stockouts']}", "within 14 days", "warn"), ("Near-expiry batches", f"{k['near_expiry']}", f"1-90 d \u00b7 {k['expired_batches']} already expired", "warn"),
-            ("Supplier risks", f"{k['supplier_risks']}", "high-risk suppliers", "bad" if k["supplier_risks"] else "good"), ("Pending decisions", f"{k['pending']}", "awaiting human approval", "info"),
-            ("Supply resilience", f"{k['resilience']['index']:.0f}/100", "heuristic composite index", "good" if k["resilience"]["index"] >= 75 else "warn")])
+ui.kpi_row([("Predicted stockouts", f"{k['predicted_stockouts']}", "within 14 days", "warn", "views/stockout.py"), ("Near-expiry batches", f"{k['near_expiry']}", f"1-90 d \u00b7 {k['expired_batches']} already expired", "warn", "views/batches.py"),
+            ("Supplier risks", f"{k['supplier_risks']}", "high-risk suppliers", "bad" if k["supplier_risks"] else "good", "views/suppliers.py"), ("Pending decisions", f"{k['pending']}", "awaiting human approval", "info", "views/approvals.py"),
+            ("Supply resilience", f"{k['resilience']['index']:.0f}/100", "heuristic composite index", "good" if k["resilience"]["index"] >= 75 else "warn", "views/analytics.py")])
 st.write("")
 a, b = st.columns([1.6, 1])
 with a:

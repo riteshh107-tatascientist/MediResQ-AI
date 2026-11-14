@@ -21,6 +21,9 @@ DB_URL = os.getenv("MEDIRESQ_DB_URL", f"sqlite:///{(DATA_DIR / 'mediresq.db').as
 SEED = int(os.getenv("MEDIRESQ_SEED", "42"))
 HISTORY_DAYS = int(os.getenv("MEDIRESQ_HISTORY_DAYS", "365"))
 DEMO_PASSWORD = os.getenv("MEDIRESQ_DEMO_PASSWORD", "Demo@2026!")
+DEMO_MODE = os.getenv("MEDIRESQ_DEMO_MODE", "1") == "1"          # one-click demo login buttons on the sign-in page
+SYNC_DEMO_PASSWORDS = os.getenv("MEDIRESQ_SYNC_DEMO_PASSWORDS", "1") == "1"  # keep demo-account hashes in sync with MEDIRESQ_DEMO_PASSWORD
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "")                      # optional override, e.g. gemini-2.5-flash
 MAX_UPLOAD_MB = 5
 HORIZON = 30  # forecast horizon in days
 

@@ -1,8 +1,8 @@
 # Test Report
 
-Generated 2026-11-13 04:47 by `pytest` (parsed from `data/junit.xml`).
+Generated 2026-11-14 00:53 by `pytest` (parsed from `data/junit.xml`).
 
-**Total: 55 | Passed: 55 | Failed: 0** | Runtime: 21.373 s
+**Total: 59 | Passed: 59 | Failed: 0** | Runtime: 26.519 s
 
 
 | Test case | Expected result | Actual result | Pass/Fail |
@@ -37,6 +37,9 @@ Generated 2026-11-13 04:47 by `pytest` (parsed from `data/junit.xml`).
 | `test_core::test_role_permissions` | Role matrix enforced | Executed successfully | PASS |
 | `test_core::test_csv_upload_validation` | Valid file accepted; bad columns/codes/negatives/formula-injection/oversize rejected | Executed successfully | PASS |
 | `test_core::test_assistant_answers_from_data` | Answers match database values; unknown question returns help | Executed successfully | PASS |
+| `test_core::test_llm_context_is_grounded_and_safe` | Behaves as specified | Executed successfully | PASS |
+| `test_core::test_gemini_success_fallback_and_errors` | Behaves as specified | Executed successfully | PASS |
+| `test_core::test_demo_password_sync_fixes_login` | Behaves as specified | Executed successfully | PASS |
 | `test_pages::test_page_renders_admin[admin.py]` | Page renders with no exception | Executed successfully | PASS |
 | `test_pages::test_page_renders_admin[alerts.py]` | Page renders with no exception | Executed successfully | PASS |
 | `test_pages::test_page_renders_admin[analytics.py]` | Page renders with no exception | Executed successfully | PASS |
@@ -62,13 +65,15 @@ Generated 2026-11-13 04:47 by `pytest` (parsed from `data/junit.xml`).
 | `test_pages::test_planner_generate_interaction` | Behaves as specified | Executed successfully | PASS |
 | `test_pages::test_approval_interaction_and_viewer_blocked` | Behaves as specified | Executed successfully | PASS |
 | `test_pages::test_optimizer_page_creates_pending_plan` | Behaves as specified | Executed successfully | PASS |
+| `test_pages::test_one_click_demo_login_and_ai_page_fallback` | Behaves as specified | Executed successfully | PASS |
 
 ## Coverage map
 Inventory CRUD, batch/expiry, forecasting, stockout, supplier analysis, shipment disruption, redistribution optimisation, scenario simulation, approval workflow, dashboard calculations, security and upload validation, assistant, and a Streamlit page-render smoke test for all 16 pages (admin role) plus viewer-role and login-gate checks.
 
 
 ## Known limitations / what was NOT verified
-- **Visual verification:** the sandbox used to build this project could not drive a real browser. The server was confirmed to start and answer `/_stcore/health` and HTTP 200, and every page renders without exceptions under Streamlit's `AppTest`, but the **look of the pages and the CSS header light-sweep animation were not viewed in a browser here**. Please open the app and check (README troubleshooting).
+- **Browser verification (manual, headless Chromium, dark theme):** home, dashboard, optimizer and AI pages were loaded and screenshotted; card hover, card click navigation, one-click demo login, session persistence across pages and the header light-sweep were observed working. These browser checks are not part of the automated suite. Light theme and mobile layouts were not re-checked in a browser after the final CSS change.
+- **Gemini live call NOT verified:** the build sandbox has no access to Google's API, so the HTTP layer is tested with mocked responses (success, invalid key, quota, model fallback, no key). Please test with your own key.
 - Tests ran on Python 3.12 with current package versions; Python 3.10 compatibility is by construction (no 3.11+ syntax) but was not executed.
 - Tests use a reduced 150-day synthetic history and fast models; the shipped demo DB uses 365 days and all 5 models.
 - Forecast/policy results are on synthetic data and say nothing about real-world accuracy.

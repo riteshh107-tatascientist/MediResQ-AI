@@ -89,6 +89,49 @@ div.stButton > button[kind="primary"], div.stButton > button[data-testid="stBase
   box-shadow: 0 8px 22px rgba(11,107,203,.35); transition: transform .15s ease, box-shadow .15s ease; }
 div.stButton > button[kind="primary"]:hover, div.stButton > button[data-testid="stBaseButton-primary"]:hover { transform: translateY(-1px); box-shadow: 0 12px 26px rgba(11,107,203,.45); }
 @media (max-width: 900px) { .mq-hero-in { grid-template-columns: 1fr; } .mq-title { font-size: 2.8rem; } .mq-flow { grid-template-columns: 1fr; } .mq-step:not(:last-child)::after { display:none; } }
+
+/* ===== theme-proofing: always a light, high-contrast surface, even if the viewer's Streamlit/system theme is dark ===== */
+.stApp, [data-testid="stAppViewContainer"], [data-testid="stMain"], [data-testid="stHeader"] { background: #f3f7fc !important; }
+[data-testid="stMain"] :is(h1,h2,h3,h4,h5,h6,p,li,label,summary,[data-testid="stCaptionContainer"],[data-testid="stMetricValue"],[data-testid="stMetricLabel"],[data-testid="stWidgetLabel"]) { color: #0a1f44 !important; }
+[data-testid="stMain"] [data-testid="stCaptionContainer"] { color: #5b6f8f !important; }
+[data-testid="stMain"] :is(input, textarea) { background: #fff !important; color: #0a1f44 !important; -webkit-text-fill-color: #0a1f44 !important; }
+[data-testid="stMain"] :is([data-baseweb="input"], [data-baseweb="textarea"], [data-baseweb="select"] > div) { background: #fff !important; border-color: #cfdcef !important; }
+[data-testid="stMain"] [data-baseweb="select"] * { color: #0a1f44 !important; }
+[data-baseweb="popover"] [role="listbox"], [data-baseweb="popover"] ul, [data-baseweb="menu"] { background: #fff !important; }
+[data-baseweb="popover"] *, [data-baseweb="menu"] * { color: #0a1f44 !important; }
+[data-testid="stMain"] :is(button[kind="secondary"], [data-testid="stBaseButton-secondary"]) { background: #fff !important; border: 1px solid #cfdcef !important; border-radius: 10px; }
+[data-testid="stMain"] :is(button[kind="secondary"], [data-testid="stBaseButton-secondary"]):hover { border-color: #0b6bcb !important; background: #eef6ff !important; }
+[data-testid="stMain"] :is(button[kind="primary"], [data-testid="stBaseButton-primary"], [data-testid="stBaseButton-primaryFormSubmit"]) p { color: #ffffff !important; }
+[data-testid="stMain"] [data-testid="stBaseButton-secondaryFormSubmit"] { background: #fff !important; }
+[data-testid="stMain"] [data-testid="stForm"], [data-testid="stMain"] [data-testid="stExpander"] details, [data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"]:has(> div > [data-testid="stForm"]) { background: #fff; border: 1px solid #e3ebf6; border-radius: 14px; }
+[data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] { background: #fff; border-radius: 14px; }
+[data-testid="stMain"] button[data-baseweb="tab"] { color: #0a1f44 !important; }
+[data-testid="stMain"] [data-testid="stAlert"] * { color: #0a1f44 !important; }
+.mq-card { color: #0a1f44; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+.mq-card h4, .mq-card p, .mq-card b, .mq-card .mq-h4 { color: #0a1f44 !important; } .mq-card [data-testid="stHeaderActionElements"] { display: none !important; }
+.mq-card:hover, .mq-step:hover { transform: translateY(-4px); box-shadow: 0 16px 32px rgba(11,107,203,.20); border-color: #22d3ee; }
+.mq-kpi { height: 136px; overflow: hidden; } .mq-kpi .lab { color: #5b6f8f !important; } .mq-kpi .val { color: #0a1f44 !important; } .mq-kpi .sub { color: #6b7f9e !important; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.mq-feat { height: 395px; } .mq-feat img { aspect-ratio: 5 / 3; object-fit: cover; } .mq-h4 { font-family: 'Sora','Inter',sans-serif; font-weight: 700; color: #0a1f44 !important; font-size: 1.1rem; line-height: 1.25; margin: 0 0 6px; } .mq-feat .mq-h4 { min-height: 2.6em; }
+.mq-two { height: 365px; overflow: hidden; }
+.mq-step, .mq-step b { color: #fff !important; } .mq-step span { color: #bcd6f5 !important; } .mq-step { height: 150px; transition: transform .18s ease, box-shadow .18s ease; }
+.mq-chip { color: #0b4a8f !important; } .mq-badge { color: #fff !important; }
+.mq-sec { color: #0a1f44 !important; } .mq-sec-sub { color: #5b6f8f !important; }
+.mq-sim { color: #92400e !important; } .mq-note, .mq-note b, .mq-note i { color: #1e3a8a !important; }
+.mq-hero, .mq-title { color: #fff !important; } .mq-eyebrow { color: #7dd3fc !important; } .mq-tag { color: #bae6fd !important; } .mq-sub { color: #cfe3fb !important; } .mq-desc { color: #a9c4e6 !important; } .mq-college { color: #06142f !important; }
+div[class*="st-key-nav_"] { position: relative; gap: 0 !important; }
+div[class*="st-key-nav_"] [data-testid="stElementContainer"]:has([data-testid="stPageLink"]) { position: absolute !important; inset: 0 !important; width: 100% !important; max-width: 100% !important; height: 100% !important; z-index: 6; margin: 0 !important; }
+div[class*="st-key-nav_"] [data-testid="stPageLink"] { position: static !important; }
+div[class*="st-key-nav_"] [data-testid="stPageLink"] a { position: absolute !important; inset: 0 !important; width: 100% !important; height: 100% !important; opacity: 0; cursor: pointer; display: block; z-index: 7; }
+div[class*="st-key-nav_"]:hover .mq-card, div[class*="st-key-nav_"]:hover .mq-step { transform: translateY(-4px); box-shadow: 0 16px 32px rgba(11,107,203,.22); border-color: #22d3ee; }
+.mq-go { float: right; font-size: .72rem; font-weight: 700; color: #0b6bcb !important; opacity: 0; transition: opacity .2s; } .mq-card:hover .mq-go, .mq-step:hover .mq-go { opacity: 1; }
+.mq-quick { text-align: center; color: #5b6f8f !important; font-size: .85rem; margin: 6px 0; }
+[data-testid="stSidebar"] button { background: rgba(255,255,255,.10) !important; border: 1px solid rgba(255,255,255,.28) !important; border-radius: 10px; }
+[data-testid="stSidebar"] button:hover { background: rgba(34,211,238,.22) !important; border-color: #22d3ee !important; }
+[data-testid="stSidebar"] button p, [data-testid="stSidebar"] button * { color: #ffffff !important; }
+[data-testid="stSidebar"] :is(input, textarea) { background: #fff !important; color: #0a1f44 !important; -webkit-text-fill-color: #0a1f44 !important; }
+[data-testid="stMain"] button[kind="secondary"] p, [data-testid="stMain"] [data-testid="stBaseButton-secondary"] p { white-space: normal !important; overflow: visible !important; text-overflow: clip !important; line-height: 1.25; }
+[data-testid="stMain"] :is(button[kind="secondary"], [data-testid="stBaseButton-secondary"]) { min-height: 56px; height: auto; }
+@media (max-width: 900px) { .mq-feat, .mq-two, .mq-step { height: auto; } }
 </style>
 """
 
@@ -99,6 +142,7 @@ def h(html: str) -> str:
 
 
 def inject_css():
+    st.session_state["_navc"] = 0
     st.markdown(h(CSS), unsafe_allow_html=True)
 
 
@@ -138,10 +182,27 @@ def kpi(label: str, value: str, sub: str = "", tone: str = "info") -> str:
     return f'<div class="mq-card mq-kpi {tone}"><div class="lab">{label}</div><div class="val">{value}</div><div class="sub">{sub}</div></div>'
 
 
+def nav_card(html: str, page: str | None = None):
+    """A card that lifts on hover and, when `page` is given, behaves as a button (client-side navigation keeps the login session)."""
+    n = st.session_state.get("_navc", 0) + 1
+    st.session_state["_navc"] = n
+    if not page:
+        st.markdown(h(html), unsafe_allow_html=True)
+        return
+    with st.container(key=f"nav_{n}"):
+        st.markdown(h(html), unsafe_allow_html=True)
+        try:
+            st.page_link(page, label="Open")
+        except Exception:  # page not registered (e.g. isolated test run)
+            pass
+
+
 def kpi_row(items: list[tuple]):
+    """items: (label, value, sub, tone[, page]) - cards are equal size; with `page` the card is clickable."""
     cols = st.columns(len(items))
     for c, it in zip(cols, items):
-        c.markdown(h(kpi(*it)), unsafe_allow_html=True)
+        with c:
+            nav_card(kpi(*it[:4]), it[4] if len(it) > 4 else None)
 
 
 def badge(text: str) -> str:
@@ -193,8 +254,15 @@ def ensure_db() -> bool:
             need = s.query(Facility).count() == 0
     if need:
         from . import seed
-        with st.spinner("First launch: generating synthetic dataset, training forecasting models and optimising... (about 2-4 minutes)"):
+        with st.spinner("First launch: generating synthetic dataset, training forecasting models and optimising... (about 1-3 minutes)"):
             seed.seed()
+    if config.SYNC_DEMO_PASSWORDS:  # a bundled DB may have been hashed with a different demo password than the one configured in Secrets/.env
+        from .auth import hash_password, verify_password
+        from .db import User
+        with session_scope() as s:
+            for u in s.query(User).filter(User.username.like("%_demo")):
+                if not verify_password(config.DEMO_PASSWORD, u.password_hash):
+                    u.password_hash = hash_password(config.DEMO_PASSWORD)
     return True
 
 
@@ -227,31 +295,51 @@ def role_can(action: str) -> bool:
     return bool(u) and can(u["role"], action)
 
 
+def _start_session(rec: dict):
+    st.session_state["user"] = rec; st.session_state["fails"] = 0
+
+
 def login_form():
     inject_css(); hero(compact=True)
-    c1, c2, c3 = st.columns([1, 1.3, 1])
+    c1, c2, c3 = st.columns([1, 1.4, 1])
     with c2:
-        st.markdown('<div class="mq-card">', unsafe_allow_html=True)
-        st.subheader("Sign in")
-        fails = st.session_state.get("fails", 0)
-        with st.form("login"):
-            u = st.text_input("Username", max_chars=40)
-            p = st.text_input("Password", type="password", max_chars=100)
-            go_ = st.form_submit_button("Sign in", type="primary", **W)
-        if go_:
-            if fails >= 5:
-                st.error("Too many failed attempts in this session. Refresh the page to retry.")
-            else:
-                with session_scope() as s:
-                    usr = authenticate(s, u, p)
-                    rec = dict(id=usr.id, username=usr.username, name=usr.full_name, role=usr.role) if usr else None
-                if rec:
-                    st.session_state["user"] = rec; st.session_state["fails"] = 0; st.rerun()
-                st.session_state["fails"] = fails + 1
-                st.error("Invalid username or password.")
-        with st.expander("Local demo accounts (synthetic - for the hackathon demo only)"):
-            st.code("admin_demo / manager_demo / warehouse_demo / viewer_demo\nPassword: " + config.DEMO_PASSWORD)
-        st.markdown("</div>", unsafe_allow_html=True)
+        with st.container(border=True):
+            st.subheader("Sign in")
+            if config.DEMO_MODE:
+                st.markdown('<div class="mq-quick">One-click demo access (synthetic data, local demo accounts)</div>', unsafe_allow_html=True)
+                demo = [("Supply Chain Manager", "manager_demo"), ("Administrator", "admin_demo"), ("Warehouse Manager", "warehouse_demo"), ("Viewer", "viewer_demo")]
+                a, b = st.columns(2)
+                for i, (lab, uname) in enumerate(demo):
+                    if (a if i % 2 == 0 else b).button(lab, key=f"demo_{uname}", **W):
+                        from .auth import audit
+                        from .db import User
+                        with session_scope() as s:
+                            usr = s.query(User).filter_by(username=uname, active=True).first()
+                            if usr:
+                                audit(s, uname, "LOGIN_DEMO", "user", usr.id)
+                                rec = dict(id=usr.id, username=usr.username, name=usr.full_name, role=usr.role)
+                            else:
+                                rec = None
+                        if rec:
+                            _start_session(rec); st.rerun()
+                st.markdown('<div class="mq-quick">&mdash; or sign in with your account &mdash;</div>', unsafe_allow_html=True)
+            fails = st.session_state.get("fails", 0)
+            with st.form("login"):
+                u = st.text_input("Username", max_chars=40)
+                p = st.text_input("Password", type="password", max_chars=100)
+                go_ = st.form_submit_button("Sign in", type="primary", **W)
+            if go_:
+                if fails >= 5:
+                    st.error("Too many failed attempts in this session. Refresh the page to retry.")
+                else:
+                    with session_scope() as s:
+                        usr = authenticate(s, u, p)
+                        rec = dict(id=usr.id, username=usr.username, name=usr.full_name, role=usr.role) if usr else None
+                    if rec:
+                        _start_session(rec); st.rerun()
+                    st.session_state["fails"] = fails + 1
+                    st.error("Invalid username or password.")
+            st.caption("Demo usernames: admin_demo, manager_demo, warehouse_demo, viewer_demo. Password = the value of MEDIRESQ_DEMO_PASSWORD (Secrets / .env; default in README).")
     st.stop()
 
 

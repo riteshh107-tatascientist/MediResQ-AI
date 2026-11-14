@@ -66,3 +66,12 @@ def test_optimizer_page_creates_pending_plan(dbs):
     at = _app("optimizer", "Supply Chain Manager", "manager_demo")
     _btn(at, "Create recommendations from this plan (needs approval)").click(); at.run()
     assert not at.exception and any("created" in s.value for s in at.success)
+
+
+def test_one_click_demo_login_and_ai_page_fallback(dbs):
+    at = AppTest.from_file(os.path.join(ROOT, "views", "dashboard.py"), default_timeout=180); at.run()
+    next(b for b in at.button if b.label == "Supply Chain Manager").click(); at.run()
+    assert not at.exception and at.session_state["user"]["role"] == "Supply Chain Manager"
+    ai = _app("assistant", "Supply Chain Manager", "manager_demo")
+    ai.session_state["pending_q"] = "Which facility is at greatest risk?"; ai.run()
+    assert not ai.exception and ai.session_state["chat"][-1]["src"].startswith("Rule-based") and "Hospital" in ai.session_state["chat"][-1]["a"]

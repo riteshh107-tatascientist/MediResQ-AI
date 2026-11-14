@@ -144,7 +144,7 @@ Batch-level stock with manufacturing/expiry dates and status.
 | quantity | INTEGER | no |  |
 | status | VARCHAR(20) | no |  |
 
-Check constraints: `expiry_date > mfg_date`; `status in ('Available','Quarantined')`; `quantity >= 0`
+Check constraints: `quantity >= 0`; `expiry_date > mfg_date`; `status in ('Available','Quarantined')`
 
 ## `consumption`
 Historical daily consumption per medicine x hospital (synthetic).
@@ -184,7 +184,7 @@ Editable min/max stock per medicine x facility.
 | min_stock | INTEGER | no |  |
 | max_stock | INTEGER | no |  |
 
-Check constraints: `min_stock >= 0`; `max_stock >= min_stock`
+Check constraints: `max_stock >= min_stock`; `min_stock >= 0`
 
 ## `model_metrics`
 Hold-out MAE/RMSE/WAPE per model and series.

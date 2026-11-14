@@ -298,3 +298,56 @@ def test_assistant_answers_from_data(s, snap):
     t, d = answer("Which supplier has the highest delay?", s, snap, ass, bt); assert d is not None and len(d) == 7
     t, d = answer("what is the stock of ceftriaxone", s, snap, ass, bt); assert "Ceftriaxone" in t
     assert "Try" in answer("blah", s, snap, ass, bt)[0]
+
+
+# ---------------------------------------------------------------- Gemini assistant (HTTP mocked - no network) -----
+def _ctx(s, snap, q):
+    from mediresq import llm
+    from mediresq.expiry import batch_table
+    ass = assess_all(snap); bt = batch_table(s, ASOF, snap)
+    return llm.build_context(q, s, snap, ass, bt)
+
+
+def test_llm_context_is_grounded_and_safe(s, snap):
+    ctx, rule, df = _ctx(s, snap, "stock of Ceftriaxone at Hospital A?")
+    assert "MEDICINE DETAIL Ceftriaxone" in ctx and "TOP RISKS" in ctx and "KPIS" in ctx and len(ctx) <= 14000
+    assert "AIza" not in ctx and "password" not in ctx.lower() and "hash" not in ctx.lower()
+
+
+class _Resp:
+    def __init__(self, code, payload): self.status_code, self._p = code, payload
+    def json(self): return self._p
+
+
+def test_gemini_success_fallback_and_errors(s, snap, monkeypatch):
+    import requests
+    from mediresq import llm
+    calls = []
+    def ok(url, json=None, headers=None, timeout=0):
+        calls.append((url, headers)); return _Resp(200, {"candidates": [{"content": {"parts": [{"text": "**Answer:** test"}]}}]})
+    monkeypatch.setattr(requests, "post", ok)
+    ans, err = llm.ask_gemini("q", "ctx", key="AIzaFAKE")
+    assert ans == "**Answer:** test" and err is None
+    assert "AIzaFAKE" not in calls[0][0] and calls[0][1]["x-goog-api-key"] == "AIzaFAKE"   # key in header, never in URL
+    monkeypatch.setattr(requests, "post", lambda *a, **k: _Resp(400, {"error": {"message": "API key not valid. Please pass a valid API key."}}))
+    ans, err = llm.ask_gemini("q", "ctx", key="bad"); assert ans is None and "rejected the API key" in err
+    monkeypatch.setattr(requests, "post", lambda *a, **k: _Resp(429, {"error": {"message": "quota"}}))
+    assert "quota" in llm.ask_gemini("q", "ctx", key="k")[1].lower()
+    seq = iter([_Resp(404, {"error": {"message": "model not found"}}), _Resp(200, {"candidates": [{"content": {"parts": [{"text": "second model ok"}]}}]})])
+    monkeypatch.setattr(requests, "post", lambda *a, **k: next(seq))
+    assert llm.ask_gemini("q", "ctx", key="k")[0] == "second model ok"   # falls back to next model name
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    assert llm.ask_gemini("q", "ctx", key="")[1] == "no_key"
+
+
+def test_demo_password_sync_fixes_login(dbs):
+    from mediresq import config, ui
+    old = config.DEMO_PASSWORD
+    config.DEMO_PASSWORD = "Another#Secret9"
+    try:
+        ui.ensure_db.clear(); ui.ensure_db()
+        with db.session_scope() as s:
+            assert auth.authenticate(s, "admin_demo", "Another#Secret9") is not None
+    finally:
+        config.DEMO_PASSWORD = old
+        ui.ensure_db.clear(); ui.ensure_db()

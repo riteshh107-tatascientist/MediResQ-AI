@@ -14,39 +14,47 @@ st.caption("Sign in with a local demo account on the next screen. All data is sy
 try:
     c = ui.ctx(); ass = c["ass"]; snap = c["snap"]
     hosp = ass[ass.fac_type == "Hospital"]
-    ui.kpi_row([("Medicines tracked", f"{len(snap.med)}", "essential list (synthetic)", "info"), ("Facilities", f"{len(snap.fac)}", "3 warehouses + 5 hospitals", "info"),
-                ("Daily-demand series forecast", f"{len(hosp)}", "5 models backtested per series", "info"),
-                ("Predicted stockouts (14 d)", f"{int(((hosp.stockout_day.notna()) & (hosp.stockout_day <= 14)).sum())}", "from live forecasts", "warn"),
-                ("Optimizer", "OR-Tools", "MIP / SCIP", "good")])
+    ui.kpi_row([("Medicines tracked", f"{len(snap.med)}", "essential list (synthetic)", "info", "views/inventory.py"), ("Facilities", f"{len(snap.fac)}", "3 warehouses + 5 hospitals", "info", "views/logistics.py"),
+                ("Demand series forecast", f"{len(hosp)}", "5 models backtested per series", "info", "views/forecasting.py"),
+                ("Predicted stockouts (14 d)", f"{int(((hosp.stockout_day.notna()) & (hosp.stockout_day <= 14)).sum())}", "from live forecasts", "warn", "views/stockout.py"),
+                ("Optimizer", "OR-Tools", "MIP / SCIP", "good", "views/optimizer.py")])
 except Exception as e:  # keep the landing page alive even if data is unavailable
     st.info("Data is initialising. Open the dashboard to finish setup.")
 
 ui.section("The real-world problem", "Why essential medicines run out - even when stock exists somewhere in the network")
 a, b = st.columns(2)
-a.markdown(ui.h("""<div class="mq-card mq-fade"><h4 style="margin-top:0">Stockouts, expiry and blind spots</h4>
+with a:
+    ui.nav_card("""<div class="mq-card mq-two mq-fade"><div class="mq-h4">Stockouts, expiry and blind spots</div>
 <p>Healthcare networks juggle thousands of medicine lines across hospitals and warehouses. Demand shifts with seasons and outbreaks, suppliers deliver late or short,
 and shipments get delayed. Planners often learn about a shortage <b>after</b> it happens, while surplus - or near-expiry stock - sits idle at another facility.</p>
 <p>The result: patients' treatment is interrupted, emergency purchases cost more, and good stock is wasted.</p>
-<span class="mq-chip">Late supplier deliveries</span><span class="mq-chip">Demand surges</span><span class="mq-chip">Expiry wastage</span><span class="mq-chip">Siloed inventory</span></div>"""), unsafe_allow_html=True)
-b.markdown(ui.h("""<div class="mq-card mq-fade"><h4 style="margin-top:0">MediResQ AI: detect early, recover optimally</h4>
+<span class="mq-chip">Late supplier deliveries</span><span class="mq-chip">Demand surges</span><span class="mq-chip">Expiry wastage</span><span class="mq-chip">Siloed inventory</span></div>""")
+with b:
+    ui.nav_card("""<div class="mq-card mq-two mq-fade"><div class="mq-h4">MediResQ AI: detect early, recover optimally</div>
 <p>MediResQ forecasts demand per medicine and facility, projects stock day-by-day with <b>FEFO batch logic</b>, scores shortage risk with a visible reason, watches supplier and shipment disruption,
 and uses a <b>mathematical optimizer</b> to propose the cheapest feasible redistribution - respecting expiry, reserves, cold chain and capacity.</p>
 <p>Every action is a <b>recommendation</b>: a human approves, rejects or modifies it, and the decision is audited.</p>
-<span class="mq-chip">Explainable alerts</span><span class="mq-chip">What-if simulation</span><span class="mq-chip">Human approval</span><span class="mq-chip">Full audit trail</span></div>"""), unsafe_allow_html=True)
+<span class="mq-chip">Explainable alerts</span><span class="mq-chip">What-if simulation</span><span class="mq-chip">Human approval</span><span class="mq-chip">Full audit trail</span></div>""", "views/approvals.py")
 
 ui.section("Four intelligence engines", "One connected platform")
 feats = [("feature_inventory", "Medicine Inventory Intelligence", "Batch-level stock, FEFO issuing, 30/60/90-day expiry alerts, wastage risk and safe-transfer suggestions."),
          ("feature_forecast", "AI Demand Forecasting", "Moving average, seasonal naive, Holt-Winters, Random Forest and Gradient Boosting - chronologically backtested with MAE, RMSE and WAPE."),
          ("feature_logistics", "Supplier and Logistics Monitoring", "Lead-time variability, delay frequency, fulfilment rate, reliability scoring and live shipment disruption tracking."),
          ("feature_recovery", "Intelligent Inventory Recovery", "OR-Tools optimizer + recovery planner turns shortages into prioritised, costed transfer and procurement actions.")]
+pages = {"feature_inventory": "views/batches.py", "feature_forecast": "views/forecasting.py", "feature_logistics": "views/suppliers.py", "feature_recovery": "views/optimizer.py"}
 cols = st.columns(4)
 for col, (img, t, d) in zip(cols, feats):
-    col.markdown(ui.h(f"""<div class="mq-card mq-feat mq-fade"><img src="{ui.img_uri(img)}" alt="{ui.ALT[img]}" loading="lazy"/><div class="body"><h4>{t}</h4><p>{d}</p></div></div>"""), unsafe_allow_html=True)
+    with col:
+        ui.nav_card(f"""<div class="mq-card mq-feat mq-fade"><img src="{ui.img_uri(img)}" alt="{ui.ALT[img]}" loading="lazy"/><div class="body"><div class="mq-h4">{t}</div><p>{d}</p></div></div>""", pages[img])
 
 ui.section("How it works", "From signal to safe recovery")
 steps = [("Demand Prediction", "Forecast 7/14/30 days"), ("Risk Detection", "Stockout, expiry, supplier & shipment risk"), ("Optimization", "OR-Tools redistribution plan"),
          ("Human Approval", "Approve / reject / modify"), ("Recovery", "Transfer or procure, audit-logged")]
-st.markdown(ui.h('<div class="mq-flow">' + "".join(f'<div class="mq-step"><div class="n">{i + 1}</div><b>{t}</b><span>{d}</span></div>' for i, (t, d) in enumerate(steps)) + "</div>"), unsafe_allow_html=True)
+flow_pages = ["views/forecasting.py", "views/stockout.py", "views/optimizer.py", "views/approvals.py", "views/planner.py"]
+cols = st.columns(5)
+for i, (col, (t, d)) in enumerate(zip(cols, steps)):
+    with col:
+        ui.nav_card(f'<div class="mq-step"><div class="n">{i + 1}</div><b>{t}</b><span>{d}</span></div>', flow_pages[i])
 
 # --- live scenario teaser ------------------------------------------------------------------------------------------
 try:
